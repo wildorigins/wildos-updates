@@ -3269,18 +3269,18 @@ Description: Wild OS Backup
 
 Package: wildos-base
 Architecture: all
-Version: 0.1.7+r601
+Version: 0.1.9+r606
 Priority: optional
 Section: metapackages
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 112
+Installed-Size: 132
 Depends: kicksecure-baremetal-cli, security-misc-desktop, network-manager, sudo, polkitd, locales, systemd-zram-generator, systemd-oomd
-Filename: pool/beta/wildos-base_0.1.7+r601_all.deb
-Size: 20956
-MD5sum: 3d9be027abe7fa2a6fe6d29a811f79e3
-SHA1: e5a7d7cf71eae47a9a8c77efabeb480086edba88
-SHA256: 955403117e9c2b08401bd88d2c38092a8c3d917dbfbd62197e00871634da1bf8
-SHA512: f891274327616b03d50e6c18fee5b7ffd79ed9e6fa9006635f3c64aefb916f9d7ac9ff6fb64c377cc8ec6c212b47f7a1a15fad317828338674cee05c36f86c89
+Filename: pool/beta/wildos-base_0.1.9+r606_all.deb
+Size: 24792
+MD5sum: 0995e287ebcdc22f94ced2b780ca12d3
+SHA1: c7ed095d8941b6187b45548fa34472c485587698
+SHA256: 6d3dd350589fbc160d11360004921152bd8a1cc52702c946a900d3d8a3e0127b
+SHA512: be0b63fb0e6516df78086a8ceaadda6348697601c1a2ad116f38e055ffb98e1c747a7217ef5918ad8914bdbc1ec497c7bab9ec5e788176c0d9f47324b7d9aab5
 Description: Wild OS base system
  Identity and security layer of Wild OS. Pulls in the Kicksecure hardening
  packages (kernel and sysctl hardening, AppArmor profiles, secure time sync,
@@ -3288,20 +3288,20 @@ Description: Wild OS base system
 
 Package: wildos-branding
 Architecture: all
-Version: 0.1.62+r597
+Version: 0.1.63+r606
 Priority: optional
 Section: x11
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 91041
-Depends: wildos-fonts, wildos-ui (>= 0.1.12), wildos-overlays, wildos-desktop-view, wildos-fluent-icons, breeze, breeze-cursor-theme, sound-theme-freedesktop, plasma-workspace, kded6, libnotify-bin, pkexec, usbguard, iproute2, util-linux, plymouth, plymouth-label, libglib2.0-bin, python3-gi, sddm, qt-style-kvantum, kwin-wayland, qt6-svg-plugins, qml6-module-qtquick-controls, qml6-module-qtquick-templates, qml6-module-qtquick-effects, qml6-module-qtquick-window, qml6-module-qtquick-shapes, qml6-module-qtqml, qml6-module-qtqml-workerscript, qml6-module-qt-labs-folderlistmodel, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-org-kde-coreaddons, qml6-module-org-kde-kcmutils, plasma-desktop, kactivitymanagerd, baloo6, systemsettings, plasma-nm, plasma-pa, powerdevil, upower, bluedevil, qml6-module-org-kde-bluezqt, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-plasma-plasma5support, qml6-module-org-kde-pipewire, procps, libkf6config-bin, dbus-bin, kde-cli-tools
+Installed-Size: 91150
+Depends: wildos-fonts, wildos-ui (>= 0.1.12), wildos-overlays, wildos-desktop-view, wildos-fluent-icons, breeze, breeze-cursor-theme, sound-theme-freedesktop, plasma-workspace, kded6, libnotify-bin, pkexec, usbguard, iproute2, util-linux, plymouth, plymouth-label, libglib2.0-bin, python3-gi, sddm, qt-style-kvantum, kwin-wayland, qt6-svg-plugins, qml6-module-qtquick-controls, qml6-module-qtquick-templates, qml6-module-qtquick-effects, qml6-module-qtquick-window, qml6-module-qtquick-shapes, qml6-module-qtqml, qml6-module-qtcore, qml6-module-qtqml-workerscript, qml6-module-qt-labs-folderlistmodel, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-org-kde-coreaddons, qml6-module-org-kde-kcmutils, plasma-desktop, kactivitymanagerd, baloo6, systemsettings, plasma-nm, plasma-pa, powerdevil, upower, bluedevil, qml6-module-org-kde-bluezqt, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-plasma-plasma5support, qml6-module-org-kde-pipewire, pipewire-bin, wireplumber, procps, libkf6config-bin, dbus-bin, kde-cli-tools
 Recommends: qml6-module-qtquick-virtualkeyboard, qt6-virtualkeyboard-plugin
 Conflicts: plasma-welcome
-Filename: pool/beta/wildos-branding_0.1.62+r597_all.deb
-Size: 51789320
-MD5sum: 54266256b9c9a15d4497a65f82e2e521
-SHA1: 58dadc24a941b762345ed04dca60cf716fc5fd2f
-SHA256: d4319ab5fc3856bcebe83a5fc2c43ac2d8910ba26100df63a5eeb01a7fd1a9db
-SHA512: af9f8660a484cd9b5a7fb9948e7455faf9516bd4aca83c75e27ec8ef08582bb79d9548316459433fd31e42b5b32607291efa32e41b2ee119a59e225ce4f851c2
+Filename: pool/beta/wildos-branding_0.1.63+r606_all.deb
+Size: 51805316
+MD5sum: 39bd37f3523bce73deecd71144905b4c
+SHA1: 209b69b6999a303c80c9e341cb623e49f5588a8a
+SHA256: 570070df321397c9f534061d0e6b36bea335f091663b262493dd1a59ea1ee9f3
+SHA512: 0fec2ae491583272426568b246a5df2c93b886c17892da53e33ac27ec8f884ef1494455e05d9930ee372d20ef0eb6f2ba9854ad5021740da08faef3b6ebcd2bc
 Description: Wild OS look and feel
  The Wild OS desktop as drawn in the Wild OS Design System: dark glass
  colour scheme, Albert Sans typeface, Glacier accent, floating taskbar with the
@@ -3372,20 +3372,20 @@ Description: Wild OS desktop icons and right-click menu
 
 Package: wildos-desktop
 Architecture: all
-Version: 0.1.16+r538
+Version: 0.1.17+r606
 Priority: optional
 Section: metapackages
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 130
-Depends: wildos-base, wildos-branding, wildos-shell, wildos-ui, wildos-desktop-view, wildos-system-dialogs (>= 0.1.11), wildos-settings, wildos-files, wildos-store, wildos-welcome, wildos-appbridge, wildos-winmode, wildos-launch, wildos-lighting, wildos-setup, wildos-portal, wildos-taskmanager, wildos-recovery, wildos-report, wildos-overlays, kde-plasma-desktop, plasma-workspace, kwin-wayland, sddm, sddm-theme-breeze, kde-config-sddm, xdg-desktop-portal-kde, plasma-nm, plasma-pa, bluedevil, powerdevil, kscreen, systemsettings, kinfocenter, kde-config-gtk-style, breeze-gtk-theme, pipewire-audio, pipewire-pulse, libcanberra-pulse, wireplumber, fonts-noto-core, fonts-noto-color-emoji, usbguard-notifier, libfuse2t64, python3, xdg-user-dirs, libqca-qt6-plugins, fprintd, libpam-fprintd
+Installed-Size: 132
+Depends: wildos-base, wildos-branding, wildos-shell, wildos-ui, wildos-desktop-view, wildos-system-dialogs (>= 0.1.14), wildos-settings (>= 0.1.54), wildos-files (>= 0.1.13), wildos-store, wildos-welcome, wildos-appbridge, wildos-winmode, wildos-launch, wildos-lighting, wildos-setup, wildos-portal, wildos-taskmanager, wildos-recovery, wildos-report, wildos-overlays (>= 0.1.3), kde-plasma-desktop, plasma-workspace, kwin-wayland, sddm, sddm-theme-breeze, kde-config-sddm, xdg-desktop-portal-kde, plasma-nm, plasma-pa, bluedevil, powerdevil, kscreen, systemsettings, kinfocenter, kde-config-gtk-style, breeze-gtk-theme, pipewire-audio, pipewire-pulse, libcanberra-pulse, wireplumber, fonts-noto-core, fonts-noto-color-emoji, usbguard-notifier, libfuse2t64, python3, xdg-user-dirs, libqca-qt6-plugins, fprintd, libpam-fprintd
 Recommends: wildos-mail, wildos-write, wildos-tables, wildos-remote, wildos-pdf, wildos-capture, wildos-notes, wildos-music, wildos-videos, wildos-archive, wildos-voice, wildos-backup, wildos-terminal, dolphin, kwrite, okular, gwenview, kde-spectacle, kcalc, plasma-systemmonitor, partitionmanager, ffmpegthumbs, kwalletmanager, kde-config-flatpak, flatpak, brave-browser, keepassxc, print-manager, cups, system-config-printer-udev
 Conflicts: desktop-base, kdeconnect, konqueror, kup-backup, lxqt-notificationd, sddm-theme-debian-breeze, xwaylandvideobridge
-Filename: pool/beta/wildos-desktop_0.1.16+r538_all.deb
-Size: 22008
-MD5sum: 911527eb9a940b8604657a4b8f7d3999
-SHA1: fec8478cb2c9317ad5c8029d2bdb482ff6e44ed9
-SHA256: dddf916798cbd9508dfbfa96c099cf1cd48415ce6e53e8364ed7973e03d2183e
-SHA512: f4b339ddb53e8e58524b4ae7841c987e49ce608c01724252b4535ca436e8234d0a2ff21016a712eca98193c194a1225a1fe0b711c9d6de6fa4d17f18d3073819
+Filename: pool/beta/wildos-desktop_0.1.17+r606_all.deb
+Size: 22584
+MD5sum: f35d2d662d55c939b8ab8170a0e969dd
+SHA1: 6dfd54c19959d50a85f09e87587caf0a3bfd83bd
+SHA256: feaf484f2946b2718b149f7ffe52845f1770b8e7cee5ba7c03af9ba8eb65955a
+SHA512: ff4d681bdbfba72eef595b8f0cca15cc40029394ec5fe0f594c760aecf8586e50b5b36bf94ce53b8ffc89a15076e220ca799c1a68bf0cdb9e87eb970e86af219
 Description: Wild OS desktop
  KDE Plasma 6 on Wayland with the Wild OS default application set: file
  manager, terminal, document and image viewers, the Wild OS Store with Flathub,
@@ -3393,25 +3393,30 @@ Description: Wild OS desktop
 
 Package: wildos-files
 Architecture: amd64
-Version: 0.1.12+r593
+Version: 0.1.13+r606
 Priority: optional
 Section: utils
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 2250
-Depends: kio6, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), dosfstools, e2fsprogs, exfatprogs, fonts-jetbrains-mono, ntfs-3g, qml6-module-qtcore, qml6-module-qtmultimedia, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-pdf, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-image-formats-plugins, qt6-svg-plugins, udisks2, wildos-ui (>= 0.1.12)
+Installed-Size: 2427
+Depends: kio6, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libseccomp2 (>= 1.0.1), libstdc++6 (>= 14), bubblewrap, dosfstools, e2fsprogs, exfatprogs, fonts-jetbrains-mono, libimage-exiftool-perl, ntfs-3g, python3, python3-mutagen, qml6-module-qtcore, qml6-module-qtmultimedia, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-pdf, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-image-formats-plugins, qt6-svg-plugins, qpdf, udisks2, wildos-ui (>= 0.1.12)
 Recommends: kio-extras, xdg-utils, wildos-branding
-Filename: pool/beta/wildos-files_0.1.12+r593_amd64.deb
-Size: 583024
-MD5sum: 9616529ffbe0885e14a9c09b8a8f2ff4
-SHA1: 9da18f72b224c1ba45cf5e5ec7b68d1a7f2382e6
-SHA256: 015abca43085b3f13d7b424f99a247df9205303c57312c4100e3847a7971afe8
-SHA512: 25bd71c21fa4e10806243c36c05c62361aac242857153dbd607af0b9d541be83e63b8cf416bcf63e56efdef97ce10a4b573cba3a1bb87144f8ef91a75549f11c
+Filename: pool/beta/wildos-files_0.1.13+r606_amd64.deb
+Size: 629812
+MD5sum: 2211c27fa44d563843cbf05fe4caa6f4
+SHA1: f76a7b116835d3221b6eda91c35623afac03057e
+SHA256: d815f52b90ce4a0f18c8955e50ee53fa5aafb4d1b9a57b109aad6052580e7a94
+SHA512: 6b883554fdb0b44c87bf79d6e9bb362b7ce79b9d41e59a98ae37c6ca07734df39afd9f821d7c6b45aa047c9bc7ae359a328e421808bf336449794deae86a9b2c
 Description: Wild OS Files, the file manager
  Files is the Wild OS file manager, laid out like File Explorer on
  Windows 11: tabs in the title bar, a breadcrumb address bar, a command
  bar, and Home folders, drives and the Recycle Bin in the sidebar. File name
  extensions are hidden for known types. Folders are read and changed
  through KIO, so the Recycle Bin, network places and removable drives all work.
+ .
+ With Advanced protection, Files saves copies of photos, videos, audio,
+ PDFs and Office documents without their location, device and author
+ details, and opens unknown programs and attachments in a safe box sealed
+ off from Home and the network.
 
 Package: wildos-fluent-icons
 Architecture: all
@@ -3437,7 +3442,7 @@ Description: Fluent icon theme, yellow, for Wild OS
 
 Package: wildos-fonts
 Architecture: all
-Version: 0.1.62+r597
+Version: 0.1.63+r606
 Multi-Arch: foreign
 Priority: optional
 Section: x11
@@ -3445,12 +3450,12 @@ Source: wildos-branding
 Maintainer: Wild OS Developers <dev@wildos.io>
 Installed-Size: 285
 Depends: fontconfig
-Filename: pool/beta/wildos-fonts_0.1.62+r597_all.deb
-Size: 104320
-MD5sum: 9c4f08349a32b78b53841cf8e01e64a5
-SHA1: 7577bd73e595cfef97af6bf2fa7d841fc3336c74
-SHA256: fa782e17d5283259eb6ae4c9f83d8e4b18c9e0e3a16c7f2ed4d67189fdd3541d
-SHA512: f356ee415de145f58540ec7ba4f596d2318eeff5fc0c4d9178c92722c9205ce8ccba5ec89178996db328875eb0326c84cb9c68ef48cede80d7f15e0206c7c27f
+Filename: pool/beta/wildos-fonts_0.1.63+r606_all.deb
+Size: 104864
+MD5sum: a50d828f1469584658c44587eae62d66
+SHA1: dad0f8aface2c58f4f54daaaa4fb066055030a55
+SHA256: 78b616470bc37c28f4de388ea3460adbe96c3870064fd722d049e0d1bdae2fa7
+SHA512: 90393d4b55a72530a2e2e983eb87271079163e38176d957c49867c546e8c8811f6c3759cda119de2eda3273932ebdd827b36eef3b6b379e95e21cc11ca7d7cb7
 Description: Albert Sans, the Wild OS typeface
  The variable Albert Sans fonts, upright and italic, under the SIL Open
  Font Licence. Debian does not package them; every Wild OS app, the
@@ -3642,18 +3647,18 @@ Description: Wild OS Write and Tables, the parts both share
 
 Package: wildos-overlays
 Architecture: amd64
-Version: 0.1.2+r408
+Version: 0.1.3+r606
 Priority: optional
 Section: x11
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 411
+Installed-Size: 424
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6guiaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.2.0), libqt6qml6 (>= 6.7.2), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), wildos-ui, kwin-wayland, layer-shell-qt, plasma-workspace (>= 4:6.3), plasma-workspace (<< 4:6.4), libqt6sql6-sqlite, qml6-module-qtquick, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qml6-module-qtqml-workerscript, fonts-noto-color-emoji
-Filename: pool/beta/wildos-overlays_0.1.2+r408_amd64.deb
-Size: 135776
-MD5sum: f381f73676f3156acdef5926498c141d
-SHA1: c790f030204556095900046c191f2f63b4834f7d
-SHA256: d491b96ff0a122364a0ce4db16c2c78808cfbd20169999ceaecff70266e57929
-SHA512: 27aad57197f49660b4f47bef0be16bb7b72a10933f6430cedd4e72edf4fc06d3794581ce0f1e0ad8367d6ee9da2a3108f293864df6de54341082f6f324ac8fae
+Filename: pool/beta/wildos-overlays_0.1.3+r606_amd64.deb
+Size: 138780
+MD5sum: 4f9c839d2d65ef76cab8f6bc824c7bb8
+SHA1: 705aae4d936bd7f19030adfb157241ad475a0625
+SHA256: 3dca9f2ef79f0e3547cd73bee79792cec4fa2db94b32d5bc71afffdb574efbe2
+SHA512: 43ef61fba9202c1f07afda58e19ec0cac6c6d4f6d5e6608bdbfcd63a653a7e19e9c4aff7baaadf49f3b8cf872dcbefe994ab2359182bb9526f40afa0b13bcdfb
 Description: Wild OS pop-ups: clipboard history and emoji
  The overlays Windows people reach for by shortcut:
  .
@@ -3838,20 +3843,20 @@ Description: Wild OS handler for Windows programs
 
 Package: wildos-settings
 Architecture: amd64
-Version: 0.1.53+r595
+Version: 0.1.54+r606
 Priority: optional
 Protected: yes
 Section: admin
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 7899
+Installed-Size: 8127
 Depends: libc6 (>= 2.38), libcups2t64 (>= 2.0.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.40.0), libkf6archive6 (>= 6.0.0), libkf6colorscheme6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6globalaccel6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kcmutils6 (>= 6.0.0), libkf6kcmutilsquick6 (>= 6.0.0), libkf6networkmanagerqt6 (>= 6.0.0), libkf6screen8 (>= 4:6.1.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkscreen-bin, libpackagekitqt6-1 (>= 1.1.1), libpolkit-qt6-1-1 (>= 0.200.0), libpwquality1 (>= 1.1.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.7.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libsdl2-2.0-0 (>= 2.0.14), libstdc++6 (>= 11), libudev1 (>= 196), init-system-helpers (>= 1.52), wildos-base (>= 0.1.3), nftables, iproute2, python3, python3-gi, gir1.2-flatpak-1.0, network-manager, network-manager-openvpn, systemd-resolved, qml6-module-qtquick-controls, qml6-module-qtquick-templates, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtqml-workerscript, qml6-module-qtcore, qml6-module-org-kde-kirigami, qml6-module-org-kde-kcmutils, qml6-module-org-kde-desktop, qml6-module-org-kde-bluezqt, qml6-module-org-kde-plasma-plasma5support, qml6-module-org-kde-kitemmodels, plasma-nm, plasma-pa, plasma-workspace, plasma-desktop, wildos-branding, steam-devices, wildos-ui (>= 0.1.12), kio6, packagekit, pkexec, unattended-upgrades, cups-client, xkb-data, locales, accountsservice, passwd, fontconfig, sonnet6-plugins, hunspell-en-gb | hunspell-dictionary, pipewire-bin, libpipewire-0.3-modules, libglib2.0-bin, cracklib-runtime
 Recommends: systemsettings, bolt, flatpak, cups, cups-filters, xdg-desktop-portal, baloo6, kactivitymanagerd, orca, speech-dispatcher-espeak-ng, maliit-keyboard
-Filename: pool/beta/wildos-settings_0.1.53+r595_amd64.deb
-Size: 1911960
-MD5sum: 096eee46abae394024e518e7c8b10762
-SHA1: 434de28a35481812181c1b63f384e053e99b3842
-SHA256: f6abc6f4ae53240b52e468ef0371dcab18033eef925f1bd83692c52123dfc26a
-SHA512: 4606295ab48f831566d5be8cde63b20d2b5274d4007b5ee56e993f9f4112854cc4622c4d248e7dc3aa92da7cfbf9edaa331aae863e7c5b8c36e131cab8733f02
+Filename: pool/beta/wildos-settings_0.1.54+r606_amd64.deb
+Size: 1959276
+MD5sum: ee069bf7ad71f8d0de3525ebada0acc1
+SHA1: 5f98698de3331119a80741e3b1eb613e81d3777d
+SHA256: df0760244aa60131fd22422af40d20246fcc50de5f5f4454400081aad60bda1b
+SHA512: 3bd4a57dc44b559d8a325e96b451c905b6c222cb70ef55a10905fd2f031ec5ff2352919b2a70c4528beaa917bfa384f6056026766c64bca8f3188d8177b2b3f0
 Description: Wild OS Settings
  The Settings app of Wild OS, laid out and worded the way Windows 11
  Settings is: system, devices, network, personalisation, apps, Windows apps,
@@ -3987,19 +3992,19 @@ Description: Wild OS Store
 
 Package: wildos-system-dialogs
 Architecture: amd64
-Version: 0.1.13+r592
+Version: 0.1.14+r606
 Priority: optional
 Section: x11
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 1591
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), libpam0g (>= 0.99.7.1), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libstdc++6 (>= 11), init-system-helpers (>= 1.52), wildos-ui (>= 0.1.12), polkitd, kwin-common, dpkg, apt, qml6-module-qtquick, qml6-module-qtquick-templates, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-effects, qml6-module-qtquick-window, qml6-module-qtqml, qml6-module-qtqml-models
+Installed-Size: 1608
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), libpam0g (>= 0.99.7.1), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libstdc++6 (>= 11), init-system-helpers (>= 1.52), wildos-ui (>= 0.1.12), polkitd, kwin-common, dpkg, apt, qml6-module-qtquick, qml6-module-qtquick-templates, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-effects, qml6-module-qtquick-window, qml6-module-qtqml, qml6-module-qtqml-models
 Recommends: kde-cli-tools, powerdevil, power-profiles-daemon, upower
-Filename: pool/beta/wildos-system-dialogs_0.1.13+r592_amd64.deb
-Size: 491612
-MD5sum: 011c8eecfb6d863bda6d02ebbad978bd
-SHA1: 07c367123a25c223fcd93b99124df306d700ac43
-SHA256: 126221051e4609ab1749e50200dd4bf4c9e3df0bd92a8ae759eb6d0185015fd8
-SHA512: af5d6de5dadd97c6115640680df0a1a70e37ad0c11e0b499862b3102db598604a0f995c134be52c91521733eacd3c08c95c1e0c8e7dab895854832eff294c3a2
+Filename: pool/beta/wildos-system-dialogs_0.1.14+r606_amd64.deb
+Size: 495088
+MD5sum: 115d82cd56c32265ac7ff87e0cafc83c
+SHA1: 36e43908b94c85c42cf09d61fd225d4e9c21a0ca
+SHA256: ec37ac748efdb7c083135ceff89dd21ff33d62fa5f1a07702b4bdd994148c2c3
+SHA512: 5e55f993820d0b9a3b67ef35dbaa1194756f53e0184a9fa287087c954308b4e857b48b6332ceab29c24f204c7546d5374f863d5eff1df731575951315f24587b
 Description: Wild OS system dialogs
  The prompts the system itself puts up, drawn to the Wild OS design:
  .
@@ -4087,18 +4092,18 @@ Description: Wild OS Terminal
 
 Package: wildos-ui
 Architecture: amd64
-Version: 0.1.12+r592
+Version: 0.1.13+r606
 Priority: optional
 Section: libs
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 3976
+Installed-Size: 3997
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 5), qt6-declarative-private-abi (= 6.8.2), qml6-module-qtquick, qml6-module-qtquick-templates, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-effects, qml6-module-qtquick-window, wildos-fonts
-Filename: pool/beta/wildos-ui_0.1.12+r592_amd64.deb
-Size: 580492
-MD5sum: e662c1c08c2eced746c038beaaf3e166
-SHA1: f4b0be8ed1ebc326ade17f5c2062354205f1eda2
-SHA256: 12e69755722c95941e0b61b234b9754c16b22cfa5313e3f6a8fd0231717d10ff
-SHA512: 5cee701339ae4b086ed021069f966799c716437b14a357ea60545baf59264d23c02dea3a98faa3d0062b842d0f16c264109238d8cc78ff87dd8210fe7de36364
+Filename: pool/beta/wildos-ui_0.1.13+r606_amd64.deb
+Size: 585268
+MD5sum: 35099e0eadf71d78c7351b5ebf7e95d8
+SHA1: 1990137997e6b0b16051afc0705c28cca330725e
+SHA256: 0a58eb4337e98d8b6a686d3fa3ed95e5f3be49f48030d62311c1108ecad37634
+SHA512: fd86a171e28159e25e695497bb691fbcfecdcead9876f638a078f61e62c34df12a6dcf251acb56a7f1e7ac95bad4987c1c468ad3ed5565ad757b2b115b8b9cb5
 Description: Wild OS controls, the shared QML module WildOS.UI
  The buttons, switches, check boxes, fields, drop-downs, menus, tabs,
  title bars, rows, cards, dialogs and icons every Wild OS app, panel
