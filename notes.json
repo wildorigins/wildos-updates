@@ -1,0 +1,1068 @@
+{
+ "version": 1,
+ "builds": [
+  {
+   "build": 600,
+   "commit": "0aa5db0d552c69da00b3173ee3324843c0d17802",
+   "date": "2026-11-14T14:08:15Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The Store can list an app only on PCs that have its repository, and carries Ganger's icon for it",
+     "packages": [
+      "wildos-store"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "The desktop is ready a little sooner after signing in",
+     "packages": [
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 597,
+   "commit": "db83f239612dc6972565d7ef8a65b12dd204d657",
+   "date": "2026-11-14T13:52:27Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The start-up animation opens onto your desktop and is quicker",
+     "packages": [
+      "wildos-branding",
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 595,
+   "commit": "8d50ba5d39e50ca72f7a9021b0df324b988470d1",
+   "date": "2026-11-14T12:18:03Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Searching for a keyboard finds it by country, language or AZERTY, not only by its exact name",
+     "packages": [
+      "wildos-installer",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 594,
+   "commit": "13bc28848655806ea8bc3cb17c225850adca9273",
+   "date": "2026-11-14T12:07:27Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Updating from an older Wild OS keeps the taskbar's app rules instead of losing them",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 593,
+   "commit": "bbc479bb2dbd4e2c7a8c4fc2aea8aeb2ffddb291",
+   "date": "2026-11-14T10:37:19Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Password boxes for your account, other accounts, Wi-Fi, encrypted drives and Backup take only what is typed",
+     "packages": [
+      "wildos-backup",
+      "wildos-branding",
+      "wildos-files",
+      "wildos-settings",
+      "wildos-welcome"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 592,
+   "commit": "e4add80cfd5c4ca502c2d877aa4c756065016421",
+   "date": "2026-11-14T09:38:03Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Wild OS's own password boxes take only what is typed: nothing can be pasted into them",
+     "packages": [
+      "wildos-branding",
+      "wildos-installer",
+      "wildos-recovery",
+      "wildos-settings",
+      "wildos-system-dialogs",
+      "wildos-ui"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Double-clicking the top or bottom edge of any window fits it to the screen's height, as in Windows",
+     "packages": [
+      "wildos-branding",
+      "wildos-shell",
+      "wildos-ui"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 590,
+   "commit": "998b8ae153a1046c37474b14171a19360bc88973",
+   "date": "2026-11-14T09:22:20Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The sign-in and lock screen password boxes have no right-click menu, as in Windows",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 589,
+   "commit": "b8694c5d99fb0eece403e3c7e4dc3f10249de5cf",
+   "date": "2026-11-14T09:04:45Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The sign-in and lock screen password boxes have a right-click menu with Paste",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 588,
+   "commit": "acfff00023c1dd41d576ca4745ede6ed9961a2bb",
+   "date": "2026-11-14T09:03:12Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Start opens smoothly the first time after signing in, even after an update",
+     "packages": [
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 587,
+   "commit": "67115b27eb0e565bf24495551c5758f32ce16805",
+   "date": "2026-11-14T08:54:43Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Text boxes keep what you were typing when their right-click menu opens, and Escape puts you back in the box",
+     "packages": [
+      "wildos-ui"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Renaming and the address bar in Files, on the desktop and in open and save dialogs have a right-click menu with Cut, Copy and Paste",
+     "packages": [
+      "wildos-desktop-view",
+      "wildos-files",
+      "wildos-portal"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Every text box in Mail has a right-click menu with Cut, Copy and Paste",
+     "packages": [
+      "wildos-mail"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Notes has a right-click menu with Undo, Cut, Copy and Paste in the title and the note",
+     "packages": [
+      "wildos-notes"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Text you type in PDF, Capture and Archive has a right-click menu with Cut, Copy and Paste",
+     "packages": [
+      "wildos-archive",
+      "wildos-capture",
+      "wildos-pdf"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Technical details, keys and passwords shown in Settings, Remote, Backup and permission requests can be copied from a right-click menu",
+     "packages": [
+      "wildos-backup",
+      "wildos-remote",
+      "wildos-settings",
+      "wildos-system-dialogs",
+      "wildos-terminal",
+      "wildos-voice"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 581,
+   "commit": "89c9d32ecdd62c1c7784b1828458d5526255c304",
+   "date": "2026-11-14T08:42:27Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Windows can be activated with a licence on your Microsoft account",
+     "packages": [
+      "wildos-settings",
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 580,
+   "commit": "a5de3cd1b8c379a28444e0bbd25ef2a5afe1ca56",
+   "date": "2026-11-14T08:34:06Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Updates waits for the clock to be set when it starts hours behind, and says how to fix it if it stays wrong",
+     "packages": [
+      "wildos-base",
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The clock no longer starts hours off on a PC that also has Windows",
+     "packages": [
+      "wildos-base"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 578,
+   "commit": "9137b6640d39e466e6abb43e06c6f3f2425de048",
+   "date": "2026-11-14T08:27:14Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Forget recent files on an app's taskbar menu forgets only that app's files, not Start's whole recent list",
+     "packages": [
+      "kactivitymanagerd"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 577,
+   "commit": "d893d00228c918e2ce62a4876354d6e82aa3ec1e",
+   "date": "2026-11-14T08:18:37Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Double-clicking a window's top or bottom edge fits it to the screen's height, as in Windows",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 576,
+   "commit": "90cf690f1e6dbf9ead643471bd882def89c767db",
+   "date": "2026-11-14T08:12:04Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The keyboard light is on at every start-up again",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 575,
+   "commit": "64ee2445590a93e5889bba589b732da2ac922996",
+   "date": "2026-11-14T08:09:13Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Picking an accent colour no longer flashes a shadow round the window or darkens the blurred desktop",
+     "packages": [
+      "wildos-branding",
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 574,
+   "commit": "5bd2d95c5adf85c464185e4b77a720528967481d",
+   "date": "2026-11-14T08:02:09Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Text boxes that take several lines can have the same right-click menu as single line ones",
+     "packages": [
+      "wildos-ui"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Report a problem says what is happening when it opens GitHub, and tells you once your issue is posted",
+     "packages": [
+      "wildos-report"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 572,
+   "commit": "b0dc291b34328ee8a506456a15e6dad3b8a5140e",
+   "date": "2026-11-14T07:57:19Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The taskbar shows LM Studio's icon, and apps it can't match get the Wild OS mark",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 571,
+   "commit": "ad1706660caf8494518ab35c8b1ecad1a3351909",
+   "date": "2026-11-14T07:42:32Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "A new kernel that can't reach the desktop falls back to the last one that could",
+     "packages": [
+      "wildos-base",
+      "wildos-recovery"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Linux 7.2 and Mesa 26.1 for every PC, with an NVIDIA driver that works on it",
+     "packages": [
+      "wildos-base",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Open Backup in Recovery opens Backup again",
+     "packages": [
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Typing a file's full path in the Open dialog opens it",
+     "packages": [
+      "wildos-portal"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 567,
+   "commit": "a8dd4fc6f91f1401d84c89bb6def5bfad6f74792",
+   "date": "2026-11-13T22:44:28Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Taskbar previews no longer show a thin empty bar instead of the window",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 566,
+   "commit": "7c40546d3577f5e000c0f04605da09028014943f",
+   "date": "2026-11-13T22:42:46Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The Open dialog can show Large icons with a preview of each picture",
+     "packages": [
+      "wildos-portal"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Report a problem can attach a picture already on your PC",
+     "packages": [
+      "wildos-report"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 564,
+   "commit": "f654c8501f096c5cfc9f58119ca54c2fb5923182",
+   "date": "2026-11-13T20:45:58Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Open and Save dialogs and Document Recovery no longer get a taskbar button of their own",
+     "packages": [
+      "libreoffice",
+      "plasma-integration",
+      "wildos-portal"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 563,
+   "commit": "6a50057563fb7abd9fa0a7bb56fb8628aafc5569",
+   "date": "2026-11-13T20:30:38Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Storage has a Free up space page that clears old restore points, update files, app caches and the Recycle Bin, and can tidy up by itself when the disk is nearly full",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 562,
+   "commit": "d5214ed7f2a08f4ff79ff01235f329d1590723a9",
+   "date": "2026-11-13T19:44:47Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Write and Tables windows sit on their own taskbar pins, not on a button of their own",
+     "packages": [
+      "libreoffice"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 561,
+   "commit": "07368fa8cc0913bb5be8fdb0ff642b29cefae35b",
+   "date": "2026-11-13T19:23:13Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The Updates icon on the taskbar no longer says it could not check right after start-up, and always shows the same as Settings > Updates",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 560,
+   "commit": "8c3731cd6ac615cf53bfe607a1053f8a604c7a8e",
+   "date": "2026-11-13T19:02:25Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Turning the firewall off always asks for your password and keeps the security shield amber until it's back on",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 559,
+   "commit": "4044f8d3412f4ee6a90c22f62440915523d80bcf",
+   "date": "2026-11-13T18:45:05Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "End task on the taskbar is off unless you turn it on in Settings > Personalisation > Taskbar",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings",
+      "wildos-shell"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Task Manager's End task closes an app that has stopped responding",
+     "packages": [
+      "wildos-taskmanager"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 557,
+   "commit": "587ecf77ff18114405cfe8b85aeb893688c86bd5",
+   "date": "2026-11-13T18:41:17Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Pinned apps no longer pulse on the taskbar after you close them",
+     "packages": [
+      "wildos-branding",
+      "wildos-launch"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 556,
+   "commit": "ec7df901a14fa625cab581f7026738869b835c8f",
+   "date": "2026-11-13T18:19:03Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Start opens smoothly the first time after signing in",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The battery icon shows when the charger is in, and built-in Bluetooth is never blocked as a new USB device",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 554,
+   "commit": "449bd3becc3adb923d222ca7fcb113fe6a1b31c0",
+   "date": "2026-11-13T18:17:19Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Use your own mouse pointer: a Windows .cur or .ani, a Windows pointer pack, or a picture",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 553,
+   "commit": "04b35aa34bb56e88252a7ea06bfd754c04504cd3",
+   "date": "2026-11-13T18:10:33Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Updates no longer says it could not check right after start-up, and says why when a check really fails",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 552,
+   "commit": "f726ba7c93c55826e437f1a55666f3d1fa351ca5",
+   "date": "2026-11-13T18:01:52Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Capture can scan: pages from a network or USB scanner, straightened, cropped and saved as a PDF or pictures",
+     "packages": [
+      "wildos-capture",
+      "wildos-pdf"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Printers and scanners finds printers and scanners on your network and adds them in one click",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 550,
+   "commit": "9c12c971cbad6c4ee8c5206d0f8004292aef58b9",
+   "date": "2026-11-13T17:49:06Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Closing the lid to shut down no longer sends the PC to sleep halfway, and an app with unsaved work can't stop it",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 549,
+   "commit": "ceb5262b210237bf1912d08e5aacfee9a5dec5f1",
+   "date": "2026-11-13T17:46:19Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The taskbar uses far less processor time when nothing is happening",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 548,
+   "commit": "26437f8a79747604e761b3e96781e5be0a9ba5b0",
+   "date": "2026-11-13T17:38:30Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "History no longer says a PC didn't shut down properly after a normal restart",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 547,
+   "commit": "61a7c096d06f6317c04fb49fb6733e2f906ce235",
+   "date": "2026-11-13T17:24:06Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The keyboard light comes on at start-up and keeps the level you left it at",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 546,
+   "commit": "dac9193e4c27a7da285ab61c267e62b3cd20692d",
+   "date": "2026-11-13T17:12:13Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Snappier under load, no whole-PC freezes when memory runs out, and encrypted SSDs stay fast",
+     "packages": [
+      "wildos-base",
+      "wildos-installer"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 545,
+   "commit": "88db4ed9e6673df92710eebfb3df279a16de8b6e",
+   "date": "2026-11-13T17:03:11Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The mouse pointer is white by default, as on Windows",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 544,
+   "commit": "e33d5dbd0f8229468ddbf2a2df6ea1239c7ded21",
+   "date": "2026-11-13T16:47:08Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "History records start-ups, shutdowns, sleep and the lid, fingerprint sign-ins, restore points, disk errors and firewall changes",
+     "packages": [
+      "wildos-branding",
+      "wildos-recovery",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 543,
+   "commit": "50c8420f1d3d8ec8368bbbf6ea50bf963e25adf9",
+   "date": "2026-11-13T16:43:10Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Closing the installer before the install starts no longer ends on a crash report",
+     "packages": [
+      "wildos-installer"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 542,
+   "commit": "9cdf1da0fdfb66463e0475442e1140fc5b1d9a22",
+   "date": "2026-11-13T16:24:46Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The firewall lets servers and allowed ports in only on networks you chose Home for, and the hotspot hands out addresses again",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 541,
+   "commit": "b136ed5aec53d30cd12acf1e4385fe4f8481e00a",
+   "date": "2026-11-13T16:16:17Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Recently opened files are remembered for 3 months instead of forever",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 540,
+   "commit": "840d7952eb72e5f7b2c1e680d3ac8b1df0b6eca9",
+   "date": "2026-11-13T16:11:31Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Faster on most processors, with Extra processor protection for those who want every safeguard",
+     "packages": [
+      "wildos-base",
+      "wildos-settings",
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 539,
+   "commit": "0187b571120d39efa636b43b116454da2e02fc31",
+   "date": "2026-11-13T16:05:19Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Settings has two new pages: History shows what happened on this PC in plain words, and Devices shows which hardware works",
+     "packages": [
+      "wildos-report",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 538,
+   "commit": "a70e5e2f31019da39da00c30b460336af022f958",
+   "date": "2026-11-13T15:48:09Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Sudo takes your password or your fingerprint from the same prompt",
+     "packages": [
+      "wildos-desktop",
+      "wildos-system-dialogs"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 537,
+   "commit": "8b8321575a395aeea2458bd8774f7ef4c99968d6",
+   "date": "2026-11-13T14:39:18Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The Store's Wild OS section lists only the apps you can remove, with Reinstall all beside the title",
+     "packages": [
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 536,
+   "commit": "2ee4516b5d58f7637284bd8d7ed7ce74fc36d6c9",
+   "date": "2026-11-13T14:31:21Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Background prompts no longer keep the processor awake",
+     "packages": [
+      "wildos-ui"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 535,
+   "commit": "a6e5bb413f4ae8c95cd7337aba6c11dc54d6902e",
+   "date": "2026-11-13T14:25:30Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Windows apps can be uninstalled from Settings, and the Windows desktop opens in Wild OS's own window",
+     "packages": [
+      "wildos-rdp",
+      "wildos-taskmanager",
+      "wildos-winmode"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "Settings and Start uninstall Wild OS's own apps; the Store and Settings always stay",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "New Wild OS section in the Store, to put back any of our apps that were removed",
+     "packages": [
+      "wildos-store"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Windows mode setup shows real progress while it gets the parts it runs on",
+     "packages": [
+      "wildos-winmode"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Write and Tables are separate apps, so either can be uninstalled on its own",
+     "packages": [
+      "wildos-desktop",
+      "wildos-office"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Fix the Write and Tables packages' dependency on the shared part",
+     "packages": [
+      "wildos-office"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 529,
+   "commit": "fe2227b20ee6ddb87eed03a7c4b52af7f004a733",
+   "date": "2026-11-13T13:48:55Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Apps installed from a .flatpakref file, such as the Install button on flathub.org, are really installed",
+     "packages": [
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 528,
+   "commit": "aad0b5d012a77d9825c105a0973594e88adc1281",
+   "date": "2026-11-13T12:30:29Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "The installer starts with a licence page: Wild OS is free software with no warranty, and you tick a box to go on",
+     "packages": [
+      "wildos-installer"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "Firewall settings: choose Home or Public for each network, allow an app or port, and see what was blocked",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 525,
+   "commit": "870ac77b58fcfb0118ef34fa4f209b750ca850d5",
+   "date": "2026-11-13T12:19:24Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Starting an app no longer fills the system log with lines about KDE's crash reporter",
+     "packages": [
+      "wildos-report"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 523,
+   "commit": "d3695292fe594664e37492ed82f3c5b92baf6082",
+   "date": "2026-11-13T11:00:40Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The installer says when a step is still working, instead of sitting on one number",
+     "packages": [
+      "wildos-installer"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Windows mode setup knows when the PC is offline and carries on by itself once it's back",
+     "packages": [
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 521,
+   "commit": "08090ef6f3b1e0f3a33656d1ea3f7b5a4c88d9a0",
+   "date": "2026-11-13T10:31:11Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Apps pinned to the taskbar from Start search or the pinned grid show their icon and open, and pins left blank before are repaired",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Report a problem opens again after you close it, instead of only flashing on the taskbar",
+     "packages": [
+      "wildos-report"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The close button on the Music mini player closes Music",
+     "packages": [
+      "wildos-music"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 512,
+   "commit": "724ac60e31c4ca51d90708365d9639903a542dfa",
+   "date": "2026-11-12T22:02:35Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Uninstall for home-folder apps says Recycle Bin, as Files and the desktop do",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 511,
+   "commit": "23e641fdeb8ae510a24ff547dfb9584c734c43b4",
+   "date": "2026-11-12T21:59:00Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Setting up Windows mode while updates are checked no longer stops with a dropped connection",
+     "packages": [
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 510,
+   "commit": "172c88d24e67a6f2c129efd5c9470893f91525c9",
+   "date": "2026-11-12T21:30:51Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Apps that installed themselves in your home folder, such as AppImages, can be uninstalled from Start and Settings",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 509,
+   "commit": "f24dc5e51220432474c9a63ceb38ccb050733e34",
+   "date": "2026-11-12T21:14:47Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The reset copy no longer downloads the same 2 GB release after every start-up, and keeps out of the way of open apps",
+     "packages": [
+      "wildos-recovery"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 508,
+   "commit": "0627d18a2a4a2e295193839e5ad3092f9264881e",
+   "date": "2026-11-12T21:07:25Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Plugging in ends battery saver, so the PC no longer stays slow after charging",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Settings no longer crashes as it closes",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 504,
+   "commit": "85fe598fae6e15fee1e3eb14a5c0909445034f89",
+   "date": "2026-11-12T19:45:22Z",
+   "items": []
+  },
+  {
+   "build": 503,
+   "commit": "b96a929d364cdfc0684f412bf937563ceefe8603",
+   "date": "2026-11-12T19:33:25Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Archive opens password-protected 7z and RAR files",
+     "packages": [
+      "wildos-archive"
+     ]
+    }
+   ]
+  }
+ ]
+}

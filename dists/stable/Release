@@ -1,0 +1,25 @@
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Sat, 14 Nov 2026 14:16:36 +0000
+Valid-Until: Sat, 28 Nov 2026 14:16:37 +0000
+Description: Wild OS updates (stable)
+Label: Wild OS
+Origin: Wild OS
+Suite: stable
+MD5Sum:
+ a7b5fa9652ce29ac0b1455dced646dfb           248820 main/binary-amd64/Packages
+ 1aef83cd215c3b8416cc38be9187d3c9            66227 main/binary-amd64/Packages.gz
+ 0c2d4e37ffbe214d73e5fe617fe36a78            55884 main/binary-amd64/Packages.xz
+SHA1:
+ c854d621550570148955619acc4c461dec5cff94           248820 main/binary-amd64/Packages
+ bda420014508bffe91d384b5445172e977e64aad            66227 main/binary-amd64/Packages.gz
+ 78fd59f43f6cf82a9a2816bfcc96ce97e43744c3            55884 main/binary-amd64/Packages.xz
+SHA256:
+ 3cef09a180f5ed46c0a1ef0f913045b899c6793fe45c0a875e3ca475293c48a9           248820 main/binary-amd64/Packages
+ 35c43f73dbf45b40912800b7abb0e4bda284e477fb51ad365f8ede5f330787d8            66227 main/binary-amd64/Packages.gz
+ b12d49b7bea6baad09170a00eaf4badbd7badf2c4b3b513fc2062130880976fa            55884 main/binary-amd64/Packages.xz
+SHA512:
+ c16cc1230e5549aff663cdef8ab2741331a46fa26ae4d165b122327c36003af5f3eaf290922621b918c9de0e3a7bbbf802b1ad97ead2945b0ae959d4a73da4a5           248820 main/binary-amd64/Packages
+ 2cfb8ebe54e7bea708a9e4d8a289bcaa8353f8a904317a57e4511d90d426a2b789fcd856fc0c01707437522d7ee93c67d6116f53864b80cfd1ab2c26cd45694b            66227 main/binary-amd64/Packages.gz
+ cc7cfb6f16c2176514286e68a9aade086096e5d1be7982d296b9261a015532d43622a69c0f9228155492bd2f836899dfe8f74583314c0393dd2f67af6f5299bb            55884 main/binary-amd64/Packages.xz

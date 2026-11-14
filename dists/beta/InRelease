@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: beta
+Components: main
+Date: Sat, 14 Nov 2026 14:16:25 +0000
+Valid-Until: Sat, 28 Nov 2026 14:16:25 +0000
+Description: Wild OS updates (beta)
+Label: Wild OS
+Origin: Wild OS
+Suite: beta
+MD5Sum:
+ 9b8d0558cc78308a9982e3554d24d180           248504 main/binary-amd64/Packages
+ 5dd7ed2132e149fba087328f9eaac853            66220 main/binary-amd64/Packages.gz
+ cd0bc8bf499f7882dcb69cfc4a1c512a            55904 main/binary-amd64/Packages.xz
+SHA1:
+ c10283d94c2495c5a691baa0af81be021ab81695           248504 main/binary-amd64/Packages
+ 44ab0ff00db70b36ec90d40cbda99d473e6b1ca0            66220 main/binary-amd64/Packages.gz
+ 5345bb63b53f829a8529aa6b8eac39f8600ab43e            55904 main/binary-amd64/Packages.xz
+SHA256:
+ 4c46bde09830fb914cfe7510bc77be55f6a43fd2f31321fe96d1966185055ca1           248504 main/binary-amd64/Packages
+ bc6795bda15d699bc1136a26a3095f85acfde3825705142d09b3b1833625edd0            66220 main/binary-amd64/Packages.gz
+ 75dabf282465c77695092afedc45f8707a5d58af38d22173cc6ab3d4cf3104a9            55904 main/binary-amd64/Packages.xz
+SHA512:
+ b16ea4fe961e3774af3438c7e39cf271bbcd7fe8354843a8bdc86ce48a05d5cbb2ddd0fa80c23c062534e3bd43736096e5c3fff62fdac13b7e579ced0a289552           248504 main/binary-amd64/Packages
+ cf897f3af1b55d54f37734b0ae9b86e772c95f77e77bb8f09255133365886698684889879781f0bbb47521948b1fcf55f7c08794692cc1cad531cd403ac4e826            66220 main/binary-amd64/Packages.gz
+ fbb009d4b7e7972fa8bc4a72828bbf040551d04977903a386caaafc8ceccd4d418f088353a1458f1dc0da6d4fba346464857e9245d480770aae5f302b73e3dd6            55904 main/binary-amd64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTyF1Mkz7cW+FTMw5Dx2QHERAcNzgUCavhtOQAKCRDx2QHERAcN
+zjUGAP4iOFNLrpmt5+qtqPT7PUMc1IL14YdF3rHxldpN1MhKUgEAts2FB1W55bPp
+h2/21kiG1LD8/g10ONLbhzKMd35QhwI=
+=XX1K
+-----END PGP SIGNATURE-----

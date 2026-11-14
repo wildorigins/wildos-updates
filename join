@@ -1,0 +1,12 @@
+#!/bin/sh
+# Joins a Wild OS computer installed before the update channel existed to
+# it: curl -fsSL https://deb.wildos.io/join | sudo sh
+# Fetches the same three files wildos-base ships, so its next update takes
+# them over without asking, then refreshes the package lists.
+set -eu
+site=https://deb.wildos.io/setup
+curl -fsSL "$site/wildos-updates-keyring.asc" -o /usr/share/keyrings/wildos-updates-keyring.asc
+curl -fsSL "$site/wildos.sources" -o /etc/apt/sources.list.d/wildos.sources
+curl -fsSL "$site/wildos.pref" -o /etc/apt/preferences.d/wildos.pref
+apt-get update -q >/dev/null
+echo "This computer now gets Wild OS updates. Open Settings > Updates to install them."

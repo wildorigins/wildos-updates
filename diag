@@ -1,0 +1,7 @@
+#!/bin/sh
+# Prints what is needed to look into a taskbar problem. Reads only.
+echo "== style: $(kreadconfig6 --file wildosrc --group Taskbar --key Style)"
+echo "== shell: $(dpkg-query -W -f='${Version}' wildos-shell 2>/dev/null)"
+echo "== panel:"; grep -E "^\[PlasmaViews|thickness|floating" ~/.config/plasmashellrc 2>/dev/null | head -8
+echo "== screens:"; kscreen-doctor -o 2>/dev/null | sed 's/\x1b\[[0-9;]*m//g' | grep -E "Output|Geometry|Scale|enabled" | head -8
+echo "== errors:"; journalctl --user -b --no-pager 2>/dev/null | grep -iE "Panel.qml|TaskbarStyle|org.wildos.shell|plasmashell.*(error|TypeError)" | tail -8
