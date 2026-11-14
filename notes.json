@@ -2,6 +2,21 @@
  "version": 1,
  "builds": [
   {
+   "build": 609,
+   "commit": "c2eadff080f0ea940cd55af27390aefe899c77a1",
+   "date": "2026-11-14T15:45:43Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "New in the right-click menu makes a Write document or Tables spreadsheet, as Word and Excel files",
+     "packages": [
+      "wildos-desktop-view",
+      "wildos-files"
+     ]
+    }
+   ]
+  },
+  {
    "build": 608,
    "commit": "1f18c25b13bc3aa5e371aaa83ab155cb4a0aeaad",
    "date": "2026-11-14T15:28:23Z",
@@ -1077,20 +1092,6 @@
      "packages": [
       "wildos-branding",
       "wildos-settings"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 509,
-   "commit": "f24dc5e51220432474c9a63ceb38ccb050733e34",
-   "date": "2026-11-12T21:14:47Z",
-   "items": [
-    {
-     "category": "fixed",
-     "text": "The reset copy no longer downloads the same 2 GB release after every start-up, and keeps out of the way of open apps",
-     "packages": [
-      "wildos-recovery"
      ]
     }
    ]

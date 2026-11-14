@@ -3344,19 +3344,19 @@ Description: Wild OS Capture: screenshots, screen recording and scanning
 
 Package: wildos-desktop-view
 Architecture: amd64
-Version: 0.1.7+r587
+Version: 0.1.8+r609
 Priority: optional
 Section: x11
 Maintainer: Wild OS Developers <dev@wildos.io>
 Installed-Size: 1160
 Depends: kio6, libc6 (>= 2.35), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 5), wildos-ui (>= 0.1.11), plasma-workspace (>= 4:6.3), qml6-module-qtquick, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins
 Recommends: wildos-files, wildos-settings, wildos-terminal, kio-extras
-Filename: pool/beta/wildos-desktop-view_0.1.7+r587_amd64.deb
-Size: 282448
-MD5sum: 016fd32c61ffb00ab43c98b2502471f8
-SHA1: 17eecace1caaa69e2236e9c258c919003f2bf0af
-SHA256: da67f8ebd59771206e7e215866166e161af3133e0b3f866aaceac54927452fa0
-SHA512: fe4aee462e2e6a81255f97e1551c4873800f65bcbf9d4115395779a8aa855ac5898cf72b55193d612cd067bba283fa4e650fb6c1f517f5a4ed0a62706feb64f0
+Filename: pool/beta/wildos-desktop-view_0.1.8+r609_amd64.deb
+Size: 282752
+MD5sum: 552b6b282e740a55e692345714bdcf99
+SHA1: 429fba563a2020edb437ce7b8b9745a8bf72828a
+SHA256: a4ee0e5b4b950b6097c08cb983504e79970a4eecf23ef8d5f9b869dab7af6d04
+SHA512: 0bb6327f4711e974a41beb48ffa017e6969d1b055469dc1947eb91c99126ac524cb3ca5e5b851e1957c4d17f8801dfb42768efe8fac8c7be7baa8b6e22b4c7f6
 Description: Wild OS desktop icons and right-click menu
  The Wild OS desktop: This computer, the Home folder, the Recycle Bin and
  everything in the Desktop folder as icons down the left of the screen,
@@ -3393,19 +3393,19 @@ Description: Wild OS desktop
 
 Package: wildos-files
 Architecture: amd64
-Version: 0.1.13+r606
+Version: 0.1.14+r609
 Priority: optional
 Section: utils
 Maintainer: Wild OS Developers <dev@wildos.io>
 Installed-Size: 2427
 Depends: kio6, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libseccomp2 (>= 1.0.1), libstdc++6 (>= 14), bubblewrap, dosfstools, e2fsprogs, exfatprogs, fonts-jetbrains-mono, libimage-exiftool-perl, ntfs-3g, python3, python3-mutagen, qml6-module-qtcore, qml6-module-qtmultimedia, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-pdf, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-image-formats-plugins, qt6-svg-plugins, qpdf, udisks2, wildos-ui (>= 0.1.12)
 Recommends: kio-extras, xdg-utils, wildos-branding
-Filename: pool/beta/wildos-files_0.1.13+r606_amd64.deb
-Size: 629812
-MD5sum: 2211c27fa44d563843cbf05fe4caa6f4
-SHA1: f76a7b116835d3221b6eda91c35623afac03057e
-SHA256: d815f52b90ce4a0f18c8955e50ee53fa5aafb4d1b9a57b109aad6052580e7a94
-SHA512: 6b883554fdb0b44c87bf79d6e9bb362b7ce79b9d41e59a98ae37c6ca07734df39afd9f821d7c6b45aa047c9bc7ae359a328e421808bf336449794deae86a9b2c
+Filename: pool/beta/wildos-files_0.1.14+r609_amd64.deb
+Size: 627800
+MD5sum: d86cfd6981c550653b5eca04581072d1
+SHA1: 63374fd2aa23283cb9b944ea12e41b440e959d65
+SHA256: f97f8e9d7d4e6c33a104edbab5f910316823fc2c08940709606b111b592bcb6f
+SHA512: 5a5fa73ed8dfde78222c4c35a6bcd014eaa34bbba65d0dd4ea74edb4b289dccb83ff963f438ee9f842b3513c636dde0bd25bae4732e45ae187f3acbc63127b17
 Description: Wild OS Files, the file manager
  Files is the Wild OS file manager, laid out like File Explorer on
  Windows 11: tabs in the title bar, a breadcrumb address bar, a command
