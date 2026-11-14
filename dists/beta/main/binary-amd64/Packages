@@ -3269,18 +3269,18 @@ Description: Wild OS Backup
 
 Package: wildos-base
 Architecture: all
-Version: 0.1.6+r580
+Version: 0.1.7+r601
 Priority: optional
 Section: metapackages
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 110
+Installed-Size: 112
 Depends: kicksecure-baremetal-cli, security-misc-desktop, network-manager, sudo, polkitd, locales, systemd-zram-generator, systemd-oomd
-Filename: pool/beta/wildos-base_0.1.6+r580_all.deb
-Size: 20684
-MD5sum: 57236188eaff7447987e2fb5802aa868
-SHA1: 968e6c0cf5e3ede1a3860cbe1066072a3753e5cb
-SHA256: 427e65354ef055e814da1a69e7008daeb09066ccd44633f88aa4ebba375f5637
-SHA512: ff44219820866fd35716b85c6f48f818f31e6b7efedd9124efa6f6fc6349818e6840ccb4311b5ad3326c966cea82f6e04bb0d4ec51cc84ab73a06d09ecae1150
+Filename: pool/beta/wildos-base_0.1.7+r601_all.deb
+Size: 20956
+MD5sum: 3d9be027abe7fa2a6fe6d29a811f79e3
+SHA1: e5a7d7cf71eae47a9a8c77efabeb480086edba88
+SHA256: 955403117e9c2b08401bd88d2c38092a8c3d917dbfbd62197e00871634da1bf8
+SHA512: f891274327616b03d50e6c18fee5b7ffd79ed9e6fa9006635f3c64aefb916f9d7ac9ff6fb64c377cc8ec6c212b47f7a1a15fad317828338674cee05c36f86c89
 Description: Wild OS base system
  Identity and security layer of Wild OS. Pulls in the Kicksecure hardening
  packages (kernel and sysctl hardening, AppArmor profiles, secure time sync,
