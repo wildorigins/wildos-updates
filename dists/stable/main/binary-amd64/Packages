@@ -540,7 +540,7 @@ Description: GObject introspection for the EDataServerUI4 library
 
 Package: gir1.2-fprint-2.0
 Architecture: amd64
-Version: 1:1.94.9-1+wildos2
+Version: 1:1.94.9-1+wildos3
 Multi-Arch: same
 Priority: optional
 Section: introspection
@@ -548,12 +548,12 @@ Source: libfprint
 Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
 Installed-Size: 32
 Depends: gir1.2-gio-2.0, gir1.2-gobject-2.0, gir1.2-gusb-1.0, libfprint-2-2 (>= 1:1.94.1)
-Filename: pool/stable/gir1.2-fprint-2.0_1.94.9-1+wildos2_amd64.deb
+Filename: pool/stable/gir1.2-fprint-2.0_1.94.9-1+wildos3_amd64.deb
 Size: 11944
-MD5sum: 580ab876ec31cc9e82b5e90dd9daf282
-SHA1: 03a1fafd22af9257773f0041a636348daaee325c
-SHA256: e5637389a4e7d899321256a51bccf76ac9418138ba621004632a31b4f14b8f3e
-SHA512: 078aa2f73f614f7f688135370232541ff714000ced1895557e740072fc9f3e3ec59582881a0e7965d5366e2214b9f6cb24f6aef270e0a55240c73b7200a5ee69
+MD5sum: 53d7613377eb4f6532fcc608c27248b1
+SHA1: ed78e4940f039e0050df35504ab9126eb2570a1e
+SHA256: a68dc0e2627d21e4ef89ffc899ed17b6242a0f00c8ed2d40c1b8c86a04e74a92
+SHA512: 77e2c4f55522689c862aac9299eea3ffbeccdf912d1202598d092a1478dd4d64a952eaf2a8618bc6779531e333bab7bc47a11ee6778814c8b01eba5a52761da1
 Homepage: https://www.freedesktop.org/wiki/Software/fprint/libfprint
 Description: async fingerprint library of fprint project, gir bindings
  The fprint project aims to support for consumer fingerprint reader devices.
@@ -1223,19 +1223,19 @@ Description: GTK4 Utility library for evolution data server (development files)
 
 Package: libfprint-2-2
 Architecture: amd64
-Version: 1:1.94.9-1+wildos2
+Version: 1:1.94.9-1+wildos3
 Priority: optional
 Section: libs
 Source: libfprint
 Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
 Installed-Size: 1245
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68.0), libgudev-1.0-0 (>= 146), libgusb2 (>= 0.3.3), libpixman-1-0 (>= 0.30.0), libssl3t64 (>= 3.0.0)
-Filename: pool/stable/libfprint-2-2_1.94.9-1+wildos2_amd64.deb
-Size: 460572
-MD5sum: 8259b7779c33276090210ceabd69dffb
-SHA1: 4db1915b953c798bef6277fed1efd2a2f812dd35
-SHA256: ab4475e07b062a0c2967c5c111809c8cf2fdb987484e2fc0037b1f8ad3ea97f9
-SHA512: 7322bae7c83781fda42b9c3160749447172fe80da727fe0a7a01a36375fa8038ef1798203ce10323256f478abc4f3debd2da6274949beefca59ba47112c8c6c8
+Filename: pool/stable/libfprint-2-2_1.94.9-1+wildos3_amd64.deb
+Size: 460632
+MD5sum: fccbbeabb7485d75297dd642f9f3d5e0
+SHA1: b89190a5406c2f30f74a7f6753cbe456dfe37f8f
+SHA256: 7e362645e26418e5b8c700f14cac3afdbc8fcf3fb52d4af635f1485f7dc41801
+SHA512: 4b8c5dff593e5bd34529ff9149c68a49694f812d7dd85364971aa171fa9fcc56943859fc2db0fdd335d260c47d2cb6d926ed7623205b038fcd0c81cb549fd121
 Homepage: https://www.freedesktop.org/wiki/Software/fprint/libfprint
 Description: async fingerprint library of fprint project, shared libraries
  The fprint project aims to support for consumer fingerprint reader devices.
@@ -1256,22 +1256,22 @@ Description: async fingerprint library of fprint project, shared libraries
 
 Package: libfprint-2-dev
 Architecture: amd64
-Version: 1:1.94.9-1+wildos2
+Version: 1:1.94.9-1+wildos3
 Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: libfprint
 Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
 Installed-Size: 215
-Provides: gir1.2-fprint-2.0-dev (= 1:1.94.9-1+wildos2)
-Depends: gir1.2-fprint-2.0 (= 1:1.94.9-1+wildos2), libfprint-2-2 (= 1:1.94.9-1+wildos2), gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, libgusb-dev
+Provides: gir1.2-fprint-2.0-dev (= 1:1.94.9-1+wildos3)
+Depends: gir1.2-fprint-2.0 (= 1:1.94.9-1+wildos3), libfprint-2-2 (= 1:1.94.9-1+wildos3), gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, libgusb-dev
 Suggests: libfprint-2-doc
-Filename: pool/stable/libfprint-2-dev_1.94.9-1+wildos2_amd64.deb
-Size: 24392
-MD5sum: 1e74e747119a6a7cd66b53f5af7fa36c
-SHA1: f9395dd0784f526ba92a189f961b73700618cc08
-SHA256: e507fb8e3998ff1f73b04cb5584049f4eba4b332c70a2b9f959b58de61b95b3e
-SHA512: c464344385b98a624d9642144af0763b8d5708e67af0c771a874c4ad70c067f18e52f0ff6a6477c3a872146bae218314fa7077ded911a98344dc8db96aec8442
+Filename: pool/stable/libfprint-2-dev_1.94.9-1+wildos3_amd64.deb
+Size: 24396
+MD5sum: e509f5699cb6c2d3b2509010b8e27fd1
+SHA1: b3779f8c5c5b776dfefd0779efdfed73bcfc1f22
+SHA256: 60a8072a27ac1f9865d2dc4d603ebfa58ee839330ed62de014ff5e5f3b48ae2f
+SHA512: e684ba1605a6da2c224233af30f71be0a5ad11803e8f26cfc938c9e4b838d7ecc7410490e012fe4b8e11dbcdb3454729779b6ad292bee14bd095f34617533817
 Homepage: https://www.freedesktop.org/wiki/Software/fprint/libfprint
 Description: async fingerprint library of fprint project, development headers
  The fprint project aims to support for consumer fingerprint reader devices.

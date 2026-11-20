@@ -2,6 +2,20 @@
  "version": 1,
  "builds": [
   {
+   "build": 888,
+   "commit": "9950988db76a62af91645190168970380448c1b1",
+   "date": "2026-11-20T11:23:32Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The fingerprint reader stays quick when a finger is already on it, however long since it was last used",
+     "packages": [
+      "libfprint"
+     ]
+    }
+   ]
+  },
+  {
    "build": 887,
    "commit": "19a66660cd66165794f43e12eb076ef2b16967e9",
    "date": "2026-11-20T11:04:36Z",
@@ -1237,23 +1251,6 @@
      "text": "ICloud and other calendar accounts show their calendars as soon as they are added",
      "packages": [
       "wildos-mail"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 776,
-   "commit": "31be51966909ac54df24955c80f314660ab086e2",
-   "date": "2026-11-15T21:07:15Z",
-   "items": [
-    {
-     "category": "fixed",
-     "text": "Password boxes show the password when you press the eye button",
-     "packages": [
-      "wildos-archive",
-      "wildos-backup",
-      "wildos-mail",
-      "wildos-pdf"
      ]
     }
    ]
