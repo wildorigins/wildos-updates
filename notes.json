@@ -2,6 +2,20 @@
  "version": 1,
  "builds": [
   {
+   "build": 891,
+   "commit": "2262aa89a2fcd9c0b9ae97a04b6c6973df45202f",
+   "date": "2026-11-20T11:36:33Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Fixed: Mail's Notifications settings show their switches again",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
    "build": 890,
    "commit": "de4cfca3a7e5273b79594a17ddf3bc7cbc606ebc",
    "date": "2026-11-20T11:30:10Z",
@@ -1235,21 +1249,6 @@
      "text": "Settings opens faster",
      "packages": [
       "wildos-settings"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 779,
-   "commit": "e22edb3288146b3dea1bee668f7c2a130eb34044",
-   "date": "2026-11-15T22:09:06Z",
-   "items": [
-    {
-     "category": "fixed",
-     "text": "The fingerprint reader works with a quick touch",
-     "packages": [
-      "libfprint",
-      "wildos-desktop"
      ]
     }
    ]

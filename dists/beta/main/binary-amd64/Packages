@@ -3670,18 +3670,18 @@ Description: Wild OS live session
 
 Package: wildos-mail
 Architecture: amd64
-Version: 0.2.12+r890
+Version: 0.2.12+r891
 Priority: optional
 Section: mail
 Maintainer: Wild OS Developers <dev@wildos.io>
 Installed-Size: 12629
 Depends: libc6 (>= 2.34), libcamel-1.2-64t64 (>= 3.41.3), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-4t64 (>= 3.16.2), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-27t64 (>= 3.45.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libical3t64 (>= 3.0.0), libkf6sonnetcore6 (>= 6.0.0), liblitehtml0t64 (>= 0.6), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6keychain1 (>= 0.13.2), libqt6network6 (>= 6.7.2), libqt6printsupport6 (>= 6.1.2), libqt6qml6 (>= 6.7.2), libqt6quick6 (>= 6.6.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13), evolution-data-server-camel-providers, evolution-data-server-core, evolution-ews-core (>= 3.56.1-1+wildos2), pst-utils, wildos-ui (>= 0.1.16), evolution-data-server-common, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-dialogs, qml6-module-qtqml-workerscript, sonnet6-plugins, fonts-noto-core
-Filename: pool/beta/wildos-mail_0.2.12+r890_amd64.deb
-Size: 2201020
-MD5sum: b63bed7f506e253c8596412cbc3df453
-SHA1: d42d495fb3c155710a55c3511ca7cc708d3f3bd2
-SHA256: 050a9a6b7a018b0b8681162b6b44216056084b6beed7687ac1c5ced1ed42a242
-SHA512: 2f6f71e35765b94702bb3fa7628e1031cc92e33543805b63d065dc5ba36dc92caa5f18387e890da958865464503fd071c449d1c059388366bf4d9abf150b90ae
+Filename: pool/beta/wildos-mail_0.2.12+r891_amd64.deb
+Size: 2201544
+MD5sum: bccdd4096f6cb2aa0f163cc208aec7d9
+SHA1: 4838117a59509c936dccf99b45b3866be729c73c
+SHA256: c7359a5ef38e2ae1b33a3e01854ddd71c36ccaf5d0ca78e121842be532f43516
+SHA512: b57bf8378e5c7e06572862e4268c34872f3d3ea56e35cda7d5ad1340e0eb0ac609bea696aa8b1cfef3d466e12966a3d5a004398b80368908082d927c2429b816
 Description: Wild OS Mail
  Email for Wild OS on evolution-data-server's mail engine: IMAP and SMTP
  accounts kept on the PC for offline reading, messages drawn without

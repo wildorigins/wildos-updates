@@ -1,25 +1,25 @@
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Fri, 20 Nov 2026 11:33:46 +0000
-Valid-Until: Fri, 04 Dec 2026 11:33:46 +0000
+Date: Fri, 20 Nov 2026 11:39:59 +0000
+Valid-Until: Fri, 04 Dec 2026 11:39:59 +0000
 Description: Wild OS updates (stable)
 Label: Wild OS
 Origin: Wild OS
 Suite: stable
 MD5Sum:
- fc59490f9caaddc8ab23fb5580f7fefe           259971 main/binary-amd64/Packages
- c36e7c56fb36a4e1965841fbdcca5c80            70014 main/binary-amd64/Packages.gz
- 590580b6220aac0823c30cc80f41b754            59020 main/binary-amd64/Packages.xz
+ e11fcbdd06d075e7ac2ce437132becca           259971 main/binary-amd64/Packages
+ f53faaee01c0a927a23934faf89fc686            70006 main/binary-amd64/Packages.gz
+ e8b3529605887a40c00ac086ffc96e27            59024 main/binary-amd64/Packages.xz
 SHA1:
- 64ee76dd023b60661561d4115827ea460eed2b17           259971 main/binary-amd64/Packages
- 7aa42af451ff6ee4ea60457dd8d6cd4d9f0fe49e            70014 main/binary-amd64/Packages.gz
- 79d4e34ab18cdf1862c8821ff56aa606ceaca316            59020 main/binary-amd64/Packages.xz
+ bc0fbc7953ff0dbd1206927e93619d902308d417           259971 main/binary-amd64/Packages
+ d8814e41386d57f25430fd82fae4bcae9a6c22da            70006 main/binary-amd64/Packages.gz
+ 75509c56e0f5684e2142a3c8c366f165df42f8c6            59024 main/binary-amd64/Packages.xz
 SHA256:
- 4d20e84059de41d0fe2ced19f8198a8796b32b8a95f07d7c00aca7b4f0b06662           259971 main/binary-amd64/Packages
- acd797e635748024e0c5b46a37ef700bc47097e0082c9bb373b3a560ca8fff5e            70014 main/binary-amd64/Packages.gz
- 58eb7263375389f2d2585142f2964b7759d03f7a75ef08699276367c2fef4050            59020 main/binary-amd64/Packages.xz
+ 687ec27bf3d4279822256dc5d4f2c06a7f5882c521490779127721a5099fb5f1           259971 main/binary-amd64/Packages
+ b962439bc7068b72926781175305da88cdcb4c5f584f3cc929f0b243496cf00a            70006 main/binary-amd64/Packages.gz
+ 2fe154fafd31df5b757e553cc01dbc3786a113dfc79a2795083a3865dcba8465            59024 main/binary-amd64/Packages.xz
 SHA512:
- 4ab47dfb65caafa320277cf86ab6b86bd7c9cd98cda201d3e2912ddc39d911d73d21bc605a3b4b9ae8a9c8050ea26db0e8d6cb8dcd67bb59fe657641fbb72dfb           259971 main/binary-amd64/Packages
- b4d00fe79e9efb6d222bac9e0e2fc5fdfa5f9886462fe50ff343a30d265bfe67d66038b1fba130e6e6a916e83518857bbe51425d6da5f1c2f48cc91c2e678654            70014 main/binary-amd64/Packages.gz
- 9a0f2375fde18953fb4ae2d908d273d0132cc1fb4ca25bcea59e8cc237a3ef8367846a6ba48d8bc469e1fd870de07594f75ab5c32a757258ae31b4b4a5bd5e23            59020 main/binary-amd64/Packages.xz
+ 0242e31c1087b601dff80e8c09d1f0e4705220537a778dab9f04bcdfb4d3c0a6bb88150fad36fddddf37bbb1d023c484fdc1acaf0f023feb80fda25a7a7a937e           259971 main/binary-amd64/Packages
+ 7ca649338381f8939aecee244f32b31e41043b7c4d1b8beaca2e8f8d5aa3d6ded2b2d5e47c77c8354b40a16ae0bac2d2106f354f751897b8c234e23b4a24537f            70006 main/binary-amd64/Packages.gz
+ 512661464abe8bf8f6c76cf6a6fc35d7628bf40d7ef0e6f214c59281a51f2c6a5ae0b0c329f4fdc64ec2f752ec78d099b468571527e4f20628511d12a7a3521f            59024 main/binary-amd64/Packages.xz
