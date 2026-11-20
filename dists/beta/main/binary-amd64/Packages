@@ -261,7 +261,7 @@ Description: evolution database backend server
 
 Package: evolution-ews-core
 Architecture: amd64
-Version: 3.56.1-1+wildos1
+Version: 3.56.1-1+wildos2
 Priority: optional
 Section: gnome
 Source: evolution-ews
@@ -270,12 +270,12 @@ Installed-Size: 3627
 Depends: evolution-data-server-core (<< 3.57), evolution-data-server-core (>= 3.56), libc6 (>= 2.14), libcamel-1.2-64t64 (>= 3.56.1), libebackend-1.2-11t64 (>= 3.56.1), libebook-contacts-1.2-4t64 (>= 3.25.90), libecal-2.0-3 (>= 3.56.1), libedata-book-1.2-27t64 (>= 3.56.1), libedata-cal-2.0-2t64 (>= 3.56.1), libedataserver-1.2-27t64 (>= 3.56.1), libglib2.0-0t64 (>= 2.68.0), libical3t64 (>= 3.0.0), libjson-glib-1.0-0 (>= 1.5.2), libmspack0t64 (>= 0.4), libsoup-3.0-0 (>= 3.0.3), libxml2 (>= 2.9.0)
 Breaks: evolution-ews (<< 3.55.2)
 Replaces: evolution-ews (<< 3.55.2)
-Filename: pool/beta/evolution-ews-core_3.56.1-1+wildos1_amd64.deb
-Size: 697480
-MD5sum: 1b425686cd316972c0b304c3239fe9fc
-SHA1: 429b4cb1422f7d055870f3f6b2e428ae59f663db
-SHA256: a7937a7ae542d05cab8a30b949dbf1e2bd436bf670b81d76769d36cf8ad85e13
-SHA512: 1bde343e9fdeb686aa3bba162f0cda0b2274a0bdacf73af8ff972162d5e1a4b430cd6457211feac4b34f6989d97238a6e2eacda1c4f6b07740938233fcd8029d
+Filename: pool/beta/evolution-ews-core_3.56.1-1+wildos2_amd64.deb
+Size: 698512
+MD5sum: 97b025219d5ec1aeda17decc3a984e07
+SHA1: 10e7c29d2c1d41a23ac226b8bbfbc3ef8ea003be
+SHA256: 816a6b122fa4b768d3e7ee09121f08369053af9055dd33551bf9ab4d61928bff
+SHA512: 61fadb6587b1cdc459348e95f1de14f59845ff1c295b7c19ea4dca72fb86272fea6513ab3c30b7ee8ad3d56f2f87cc0d4b1c4084b50b1843396a12873d26dfef
 Homepage: https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 Description: Exchange Web Services integration for GNOME
  This package allows GNOME apps other than Evolution to connect
@@ -3670,18 +3670,18 @@ Description: Wild OS live session
 
 Package: wildos-mail
 Architecture: amd64
-Version: 0.2.12+r877
+Version: 0.2.12+r878
 Priority: optional
 Section: mail
 Maintainer: Wild OS Developers <dev@wildos.io>
 Installed-Size: 10366
-Depends: libc6 (>= 2.34), libcamel-1.2-64t64 (>= 3.41.3), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-4t64 (>= 3.16.2), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-27t64 (>= 3.45.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libical3t64 (>= 3.0.0), libkf6sonnetcore6 (>= 6.0.0), liblitehtml0t64 (>= 0.6), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6keychain1 (>= 0.13.2), libqt6network6 (>= 6.7.2), libqt6printsupport6 (>= 6.1.2), libqt6qml6 (>= 6.7.2), libqt6quick6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13), evolution-data-server-camel-providers, evolution-data-server-core, evolution-ews-core (>= 3.56.1-1+wildos1), pst-utils, wildos-ui (>= 0.1.16), evolution-data-server-common, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-dialogs, qml6-module-qtqml-workerscript, sonnet6-plugins, fonts-noto-core
-Filename: pool/beta/wildos-mail_0.2.12+r877_amd64.deb
-Size: 1829168
-MD5sum: 1abe82e6c1f7b40719c718435946c140
-SHA1: 9718e96aca26d850ea427ae2c5c577c41ddfc3d4
-SHA256: 4d97b8e64f90c2509354240414d89cb993164a3e3cb8e23d6ae4a40510523bbb
-SHA512: bc811574ff485e0e738e4dd95838a9d1e4858341f25d48252cde42bef197f360a24e34a128fd2746f3d1f928a25d24f1ca3376db7409a673b169f70068e8033a
+Depends: libc6 (>= 2.34), libcamel-1.2-64t64 (>= 3.41.3), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-4t64 (>= 3.16.2), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-27t64 (>= 3.45.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libical3t64 (>= 3.0.0), libkf6sonnetcore6 (>= 6.0.0), liblitehtml0t64 (>= 0.6), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6keychain1 (>= 0.13.2), libqt6network6 (>= 6.7.2), libqt6printsupport6 (>= 6.1.2), libqt6qml6 (>= 6.7.2), libqt6quick6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13), evolution-data-server-camel-providers, evolution-data-server-core, evolution-ews-core (>= 3.56.1-1+wildos2), pst-utils, wildos-ui (>= 0.1.16), evolution-data-server-common, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-dialogs, qml6-module-qtqml-workerscript, sonnet6-plugins, fonts-noto-core
+Filename: pool/beta/wildos-mail_0.2.12+r878_amd64.deb
+Size: 1829700
+MD5sum: c7853080069c3f479e260dc8470328fc
+SHA1: 8a83e7f4f9533622a5715f1f38a281917ca48f44
+SHA256: 8432678c7fae1138755cfd5b273ac2f2de3a6a99fee7b2db431438c21843b7b7
+SHA512: 12996bdf4c088d1285517ec0dad0d1f6147eb19d0a7d96a20991c51634f527e1b7fbdcfafc1a703d9fe50a704811fd5f08bf09e3878b5912d559d838dcefa762
 Description: Wild OS Mail
  Email for Wild OS on evolution-data-server's mail engine: IMAP and SMTP
  accounts kept on the PC for offline reading, messages drawn without
