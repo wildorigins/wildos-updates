@@ -2,6 +2,27 @@
  "version": 1,
  "builds": [
   {
+   "build": 887,
+   "commit": "19a66660cd66165794f43e12eb076ef2b16967e9",
+   "date": "2026-11-20T11:04:36Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Mail shows senders' contact photos and company logos in place of initials",
+     "packages": [
+      "wildos-mail"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Mail's company logos setting in every language",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
    "build": 885,
    "commit": "e39951f06581c43d258f31c004e89168112e2ad5",
    "date": "2026-11-20T10:56:58Z",
@@ -1233,20 +1254,6 @@
       "wildos-backup",
       "wildos-mail",
       "wildos-pdf"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 775,
-   "commit": "76cdaa7ac75432949ae7e551f7d0efc5584e4f1b",
-   "date": "2026-11-15T18:35:23Z",
-   "items": [
-    {
-     "category": "improved",
-     "text": "Programs that rewrite temporary files in small pieces are faster: large SQLite jobs take about half as long",
-     "packages": [
-      "wildos-recovery"
      ]
     }
    ]
