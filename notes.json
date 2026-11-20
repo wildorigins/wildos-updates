@@ -2,6 +2,27 @@
  "version": 1,
  "builds": [
   {
+   "build": 890,
+   "commit": "de4cfca3a7e5273b79594a17ddf3bc7cbc606ebc",
+   "date": "2026-11-20T11:30:10Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Mail's combined Inbox shows each account's mail as soon as it's ready, and folders open straight away from what's on this PC",
+     "packages": [
+      "wildos-mail"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Mail's account settings show Mail, Calendar and Contacts as separate tick boxes",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
    "build": 888,
    "commit": "9950988db76a62af91645190168970380448c1b1",
    "date": "2026-11-20T11:23:32Z",
@@ -1229,28 +1250,6 @@
      "packages": [
       "libfprint",
       "wildos-desktop"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 778,
-   "commit": "3b89f8e108d1f4b6458e24f044102cc5b804d809",
-   "date": "2026-11-15T21:51:16Z",
-   "items": [
-    {
-     "category": "improved",
-     "text": "Shut down and restart are about 3 seconds faster",
-     "packages": [
-      "wildos-branding",
-      "wildos-settings"
-     ]
-    },
-    {
-     "category": "fixed",
-     "text": "ICloud and other calendar accounts show their calendars as soon as they are added",
-     "packages": [
-      "wildos-mail"
      ]
     }
    ]
