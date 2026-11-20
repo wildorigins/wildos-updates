@@ -1,25 +1,25 @@
 Architectures: amd64
 Codename: beta
 Components: main
-Date: Fri, 20 Nov 2026 10:17:04 +0000
-Valid-Until: Fri, 04 Dec 2026 10:17:04 +0000
+Date: Fri, 20 Nov 2026 10:27:22 +0000
+Valid-Until: Fri, 04 Dec 2026 10:27:22 +0000
 Description: Wild OS updates (beta)
 Label: Wild OS
 Origin: Wild OS
 Suite: beta
 MD5Sum:
- 7b4906f3e4bcf0e5b06cfbdf508447dd           259618 main/binary-amd64/Packages
- 47e582d1ee3301acbabae3b39f9b5398            70003 main/binary-amd64/Packages.gz
- 7ace12d6dd5b02bcb806bd65279ecf1b            59024 main/binary-amd64/Packages.xz
+ 4486ddcaec588fd03a8d70bc392664af           259618 main/binary-amd64/Packages
+ c8ef463d4bb727d1bd62dad12e266062            70006 main/binary-amd64/Packages.gz
+ c505d41f0442ece8d8b6347851574f1b            59028 main/binary-amd64/Packages.xz
 SHA1:
- dba51edbbfd18235596b94c6a911de413c558fb2           259618 main/binary-amd64/Packages
- f3c6a93851557b6eac91401aa3cc73a16cc8502d            70003 main/binary-amd64/Packages.gz
- 69bedd058b8a0e41770e4977029a771171c6a730            59024 main/binary-amd64/Packages.xz
+ 5bb9ae9ce5ddfa4ee79bb6d636cadfc99efd2e2a           259618 main/binary-amd64/Packages
+ c6b6eef724b69a74ac0265767c68bed2cb0646aa            70006 main/binary-amd64/Packages.gz
+ 5fc28defaf04db6fbb582152483c4ffc16c98b95            59028 main/binary-amd64/Packages.xz
 SHA256:
- 68fe8fe3380129fde5d430cfedf49ffb6ce0ecd1eeada775a6716272e5dc73cc           259618 main/binary-amd64/Packages
- 0c8e2295eec110fe651c8680ff8bd03d0398437c635d7b602cc009452a806f8c            70003 main/binary-amd64/Packages.gz
- 752ae45b83299257780617ebef7bc0ebb484c3205c146312e8b7ab158abe60e3            59024 main/binary-amd64/Packages.xz
+ 50943b0de59227c67004e6868447dd5309ccd44a5d44d374230c3f83608a31a7           259618 main/binary-amd64/Packages
+ 9e47d5ab6a2061ff02dd4ea5300f8c18219905454e314da33ea2403497b8c08f            70006 main/binary-amd64/Packages.gz
+ ec9138c6f2ecfa1d143a8421203784240fa88c0d088039911c2a019b7eacd0d1            59028 main/binary-amd64/Packages.xz
 SHA512:
- 4ab87e0ac467afa6c7e2aef2aacda9fc73867563d7c30a2922e94d62ce67e40669a7f6a403491543c8bb39d50d89ad9b2ce7e45f8893870d8f3bc8a3a8fee2c1           259618 main/binary-amd64/Packages
- 571b956c880e0adca6c44fb84186272073c2ef169e30ac06de376370ddb37e28880e306d4898814bcfb3166b78051f4de941d410afc36b17a37781818674f127            70003 main/binary-amd64/Packages.gz
- 820ca2679b0350aedf3d13ee33ef0da963c0b38cd580c21e9a6bd9e585672abdd95cfe2484176898b48ea0373b737bbe78f8d71f587d0566cca61861180d4b74            59024 main/binary-amd64/Packages.xz
+ b62b5fad12a4246a470c87fce33f6f6b77630e8198bcdab564ad1b962e572a290d90607e0576faaa0f6c00ccb40bb344813efdf7e5bfb0a761854ccd36121592           259618 main/binary-amd64/Packages
+ 7d6699fd238c8d30b01b603bc877f68d7e68b953a27b4e0f464b03115f12f38c273bd8cea65ee518c8985a3cc62b5c24b892530d42d8c9a44c6e24d974fad27e            70006 main/binary-amd64/Packages.gz
+ aea3b613fbe1c2ef348426568a64736a6c084bb8a4a3ba1fef592d33ca987f0d10796bbe561b5e4d02cf577b7c81f7c003c22fd207388cc2b46adc1d08f7a988            59028 main/binary-amd64/Packages.xz
