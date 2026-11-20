@@ -2,6 +2,20 @@
  "version": 1,
  "builds": [
   {
+   "build": 881,
+   "commit": "5369e910e8683be974ee439edd9525d428f2b0d3",
+   "date": "2026-11-20T10:30:27Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Mail has named signatures with an editor, automatic replies by account and date, and rules with several conditions and actions",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
    "build": 880,
    "commit": "d1e64d47afb21173e269be289e13f7d80a9f1ae0",
    "date": "2026-11-20T10:23:26Z",
@@ -1222,21 +1236,6 @@
      "packages": [
       "wildos-overlays",
       "wildos-system-dialogs"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 771,
-   "commit": "6e62fd6ff26710ca834c304a69f969a23937a1e9",
-   "date": "2026-11-15T16:28:33Z",
-   "items": [
-    {
-     "category": "improved",
-     "text": "The accessibility shortcuts and the Open and Save dialog service use less memory",
-     "packages": [
-      "wildos-portal",
-      "wildos-settings"
      ]
     }
    ]

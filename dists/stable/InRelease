@@ -4,32 +4,32 @@ Hash: SHA512
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Fri, 20 Nov 2026 10:27:28 +0000
-Valid-Until: Fri, 04 Dec 2026 10:27:28 +0000
+Date: Fri, 20 Nov 2026 10:35:11 +0000
+Valid-Until: Fri, 04 Dec 2026 10:35:11 +0000
 Description: Wild OS updates (stable)
 Label: Wild OS
 Origin: Wild OS
 Suite: stable
 MD5Sum:
- b88d9d3aa5f73a482fc59f2c78eb19cd           259948 main/binary-amd64/Packages
- 7f7e1d08f677def220fcaf9ff1143c10            70021 main/binary-amd64/Packages.gz
- 8dfbd1e8994e589ec131581e758155b5            59024 main/binary-amd64/Packages.xz
+ 7bdde1da07e8756b9926ce369385f54c           259948 main/binary-amd64/Packages
+ 99b9e4e90b25b8e22b77e09c7ca79ec5            70016 main/binary-amd64/Packages.gz
+ 42041aaa02ef4fa848d863b254b5b9f7            59024 main/binary-amd64/Packages.xz
 SHA1:
- c7f6db9ec97d98e471eb437868e8cd150e51e9f2           259948 main/binary-amd64/Packages
- eb536a7a604fbea2d862f27c6029dd411cda18bb            70021 main/binary-amd64/Packages.gz
- 19000b4e756bf630eb2e11a0e0f67b9817a33330            59024 main/binary-amd64/Packages.xz
+ aa85e89c55268cf8af0c696746f98cb1ff1a9689           259948 main/binary-amd64/Packages
+ f8fed6ea49758b2f5553d4e395b73a2e85c58c59            70016 main/binary-amd64/Packages.gz
+ c737d6302440e342fbfcf356fd514425943a88a0            59024 main/binary-amd64/Packages.xz
 SHA256:
- 2e6992cc33cc52ca123441b7fbfc815b8e9e0c28bb70d95646cbec87308bab3b           259948 main/binary-amd64/Packages
- b09a1b2c28ef649021408999d02f3d9084b144e9e29f73ab96c86c5c91cd3b99            70021 main/binary-amd64/Packages.gz
- 06ef222d7afa78088248930c643eaa4e634862a77773afbae42c9fa64d599125            59024 main/binary-amd64/Packages.xz
+ 204ef026e6ea50d0f5a15d72e4bc33511ef3d5fa32ca48222b2e9a617683fa88           259948 main/binary-amd64/Packages
+ 131f185ea4124daeff0ce065c0218f53e9c52558a212046f68b1f0a9f4a6cdbd            70016 main/binary-amd64/Packages.gz
+ 9b266e453d4ceaac876302a88a0da17f4d05572221821a396f4f213ba6b2e512            59024 main/binary-amd64/Packages.xz
 SHA512:
- a7223c59f75658befdea7c9aee0a6ce86622cb511d378b1396f668dd2415bcca9212b2102cef61b5d5d4eade008972218bd18d27e14417b1b420bd594ae63150           259948 main/binary-amd64/Packages
- 594f512ed6936fe47a9f2828794f120168928e2c9d3c293a897d5075acec57e55a7a8fa1c8b49e8121e8c6efc0c084a814a2f33c4fb3aa562c6d3c066f73b76a            70021 main/binary-amd64/Packages.gz
- 86c03f641bc7226fe2819a2324157f354bae3c39bc2e2e06df3b8211a1618e5cd6e951375fc976bed79872f9922728fdc0126c18fbec2195d909a3933d1dd4a4            59024 main/binary-amd64/Packages.xz
+ e8f4b20dca4a3d9d703460eb1d380f45d2834d3bae99c6eb75a8c628b58b23c02ec2967289ae136e8182940796bb839510a154642fbd4d595735d58192226e70           259948 main/binary-amd64/Packages
+ 19cee000649dc632bb4deeb7e8f247e31eec19ff86b1e5d58a155170e4e595227383af5b0fcd45f767d29fb2d772ae79f4fc3426dc15d7de1a6e30ca0331789b            70016 main/binary-amd64/Packages.gz
+ 3d9e412e70375fce6d73674cb3d14f2cc29bad3c8648037de3ca1a632984db358ce3af1161f111c04258f51518ebd0d9585d4f689b797aba218092fff64f7d40            59024 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTyF1Mkz7cW+FTMw5Dx2QHERAcNzgUCawAgkAAKCRDx2QHERAcN
-zpCGAP0Qdsdopzuwnuwpx+tCkAdG1v6rJgQN6M6DM/8QL7UG+AEA3D4Z42BxSMaF
-b2dL/qoNZB7a8MDj8ShhPhzTjOTE5g8=
-=/Z8G
+iHUEARYKAB0WIQTyF1Mkz7cW+FTMw5Dx2QHERAcNzgUCawAiXwAKCRDx2QHERAcN
+zixjAP9XJGB5eiU0hGPdRf9nxPUtUVdr+MPmp627LG6g4LNJKwD/bD6y31zXpsVE
+Vy/E2Ta9lPNvIng20/N9FzYQDCqt7AE=
+=ihCn
 -----END PGP SIGNATURE-----
