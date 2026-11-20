@@ -3670,18 +3670,18 @@ Description: Wild OS live session
 
 Package: wildos-mail
 Architecture: amd64
-Version: 0.2.12+r875
+Version: 0.2.12+r877
 Priority: optional
 Section: mail
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 10086
-Depends: libc6 (>= 2.34), libcamel-1.2-64t64 (>= 3.41.3), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-4t64 (>= 3.16.2), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-27t64 (>= 3.45.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libical3t64 (>= 3.0.0), libkf6sonnetcore6 (>= 6.0.0), liblitehtml0t64 (>= 0.6), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6keychain1 (>= 0.13.2), libqt6network6 (>= 6.7.2), libqt6printsupport6 (>= 6.1.2), libqt6qml6 (>= 6.7.2), libqt6quick6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13), evolution-data-server-camel-providers, evolution-data-server-core, evolution-ews-core (>= 3.56.1-1+wildos1), wildos-ui (>= 0.1.16), evolution-data-server-common, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-dialogs, qml6-module-qtqml-workerscript, sonnet6-plugins, fonts-noto-core
-Filename: pool/beta/wildos-mail_0.2.12+r875_amd64.deb
-Size: 1770144
-MD5sum: eb42907ca00fdbcb5be74209ae428b69
-SHA1: 71ad0dfff256ace116d462dbc7ca50b9c51fdbfc
-SHA256: 18b4570493eb63a3377aa1fe23e642fc520c7ce7d1e62cad4294c09904f1a15a
-SHA512: 039f8551c77f9064444aecb4e1e5888296ca6cfeee6d2f2af69fb32725fee17ae2d0f199a1992a75e35cebe6148fad180d926e8ce60559bea4167f095bad55b8
+Installed-Size: 10366
+Depends: libc6 (>= 2.34), libcamel-1.2-64t64 (>= 3.41.3), libebook-1.2-21t64 (>= 3.17), libebook-contacts-1.2-4t64 (>= 3.16.2), libecal-2.0-3 (>= 3.33.4), libedataserver-1.2-27t64 (>= 3.45.2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libical3t64 (>= 3.0.0), libkf6sonnetcore6 (>= 6.0.0), liblitehtml0t64 (>= 0.6), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6keychain1 (>= 0.13.2), libqt6network6 (>= 6.7.2), libqt6printsupport6 (>= 6.1.2), libqt6qml6 (>= 6.7.2), libqt6quick6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13), evolution-data-server-camel-providers, evolution-data-server-core, evolution-ews-core (>= 3.56.1-1+wildos1), pst-utils, wildos-ui (>= 0.1.16), evolution-data-server-common, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-dialogs, qml6-module-qtqml-workerscript, sonnet6-plugins, fonts-noto-core
+Filename: pool/beta/wildos-mail_0.2.12+r877_amd64.deb
+Size: 1829168
+MD5sum: 1abe82e6c1f7b40719c718435946c140
+SHA1: 9718e96aca26d850ea427ae2c5c577c41ddfc3d4
+SHA256: 4d97b8e64f90c2509354240414d89cb993164a3e3cb8e23d6ae4a40510523bbb
+SHA512: bc811574ff485e0e738e4dd95838a9d1e4858341f25d48252cde42bef197f360a24e34a128fd2746f3d1f928a25d24f1ca3376db7409a673b169f70068e8033a
 Description: Wild OS Mail
  Email for Wild OS on evolution-data-server's mail engine: IMAP and SMTP
  accounts kept on the PC for offline reading, messages drawn without
