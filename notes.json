@@ -2,6 +2,34 @@
  "version": 1,
  "builds": [
   {
+   "build": 885,
+   "commit": "e39951f06581c43d258f31c004e89168112e2ad5",
+   "date": "2026-11-20T10:56:58Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Mail imports from Thunderbird and Evolution, contacts and calendars, and backs everything up to one file",
+     "packages": [
+      "wildos-mail"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Mail's Settings, new messages and the reading pane move as the design says",
+     "packages": [
+      "wildos-mail"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Fixed: deleting quickly no longer shows messages on top of each other, and Mail's new settings are in every language",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
    "build": 882,
    "commit": "c9b80e643568aa067921ad0ede70730f301d933a",
    "date": "2026-11-20T10:45:22Z",
@@ -1219,22 +1247,6 @@
      "text": "Programs that rewrite temporary files in small pieces are faster: large SQLite jobs take about half as long",
      "packages": [
       "wildos-recovery"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 774,
-   "commit": "923844d5af4df3ad2fc16de557187d6208cfb9b8",
-   "date": "2026-11-15T17:51:18Z",
-   "items": [
-    {
-     "category": "fixed",
-     "text": "With two screens, the password prompt, Ctrl+Alt+Del, screenshots and Identify cover the right screen",
-     "packages": [
-      "wildos-capture",
-      "wildos-settings",
-      "wildos-system-dialogs"
      ]
     }
    ]
