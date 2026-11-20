@@ -1,0 +1,1248 @@
+{
+ "version": 1,
+ "builds": [
+  {
+   "build": 875,
+   "commit": "7e00a25f7f559824547436238b47db7ab95005e7",
+   "date": "2026-11-20T09:57:51Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Mail shows new mail notifications while it's closed",
+     "packages": [
+      "wildos-mail"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "Mail has rules: sort mail as it arrives by sender, recipient or subject",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 873,
+   "commit": "edf0f459a99e4f3a6dadb22aded86d4cf96b6c87",
+   "date": "2026-11-20T09:51:16Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Printers that need a driver get it from the internet when plugged in",
+     "packages": [
+      "wildos-captdriver",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 872,
+   "commit": "4b10a5404f448bc6646f9dc10ef8e89d6d7bdc8b",
+   "date": "2026-11-20T09:47:06Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Fixed: an Outlook or Microsoft 365 account's calendar, contacts and tasks now arrive, and Calendar offers them for accounts already in Mail",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 871,
+   "commit": "814d8daba1a6de70faa9ce301a8833f80680b9b7",
+   "date": "2026-11-20T09:41:19Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Mail's settings put Add account first and let you reorder accounts; Microsoft sign-in's browser page always shows",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 870,
+   "commit": "1cefb4d7c8ebb980f1f8106a4631ec816739b725",
+   "date": "2026-11-20T09:31:26Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Fixed: signing in with a Microsoft account no longer loops back to the account list",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 869,
+   "commit": "c18153f3f40432b123efd82789b70207b4707fcd",
+   "date": "2026-11-20T09:15:06Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Mail's Microsoft sign-in in every language",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 867,
+   "commit": "19fb218c6f929c38574538da589c935e1a4b3115",
+   "date": "2026-11-20T09:09:42Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Mail signs in to Outlook.com, Hotmail and Microsoft 365, with their calendars, contacts and tasks",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 865,
+   "commit": "a97466bf391cf11ed6bd2338c2685356a9af39f4",
+   "date": "2026-11-19T15:40:08Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Games keep more compiled shaders, so they stutter less",
+     "packages": [
+      "wildos-desktop"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 864,
+   "commit": "fcf9e64c0fac2adb618b774f392dbb5d12328ecf",
+   "date": "2026-11-19T15:37:33Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Wild OS's own apps are now in 19 more languages",
+     "packages": [
+      "wildos-appbridge",
+      "wildos-archive",
+      "wildos-backup",
+      "wildos-branding",
+      "wildos-capture",
+      "wildos-cooler",
+      "wildos-desktop-view",
+      "wildos-files",
+      "wildos-mail",
+      "wildos-music",
+      "wildos-notes",
+      "wildos-office",
+      "wildos-overlays",
+      "wildos-pdf",
+      "wildos-portal",
+      "wildos-recovery",
+      "wildos-remote",
+      "wildos-report",
+      "wildos-settings",
+      "wildos-setup",
+      "wildos-shell",
+      "wildos-store",
+      "wildos-system-dialogs",
+      "wildos-taskmanager",
+      "wildos-terminal",
+      "wildos-ui",
+      "wildos-videos",
+      "wildos-voice",
+      "wildos-welcome",
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 863,
+   "commit": "62fd098f0d9eabcb07e940e3a91909c353144a43",
+   "date": "2026-11-19T14:16:32Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Desktop shortcuts from Start follow the app's updates",
+     "packages": [
+      "wildos-ui"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 862,
+   "commit": "e25ab1ee32a1fb40eb542d278f7c820737798103",
+   "date": "2026-11-19T14:11:42Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Updates install when only Kicksecure's server is down",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 861,
+   "commit": "b3366d12391fa89b309cddb05e7fa04b3b6ebeec",
+   "date": "2026-11-19T13:59:06Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Start can put an app on the desktop",
+     "packages": [
+      "wildos-branding",
+      "wildos-ui"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 860,
+   "commit": "5fb6405f74124b3fa05c4fbab47ea406d177af2d",
+   "date": "2026-11-19T13:36:17Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Wild OS's own apps are now in 17 more languages",
+     "packages": [
+      "wildos-appbridge",
+      "wildos-archive",
+      "wildos-backup",
+      "wildos-branding",
+      "wildos-capture",
+      "wildos-cooler",
+      "wildos-desktop-view",
+      "wildos-files",
+      "wildos-mail",
+      "wildos-music",
+      "wildos-notes",
+      "wildos-office",
+      "wildos-overlays",
+      "wildos-pdf",
+      "wildos-portal",
+      "wildos-recovery",
+      "wildos-remote",
+      "wildos-report",
+      "wildos-settings",
+      "wildos-setup",
+      "wildos-shell",
+      "wildos-store",
+      "wildos-system-dialogs",
+      "wildos-taskmanager",
+      "wildos-terminal",
+      "wildos-ui",
+      "wildos-videos",
+      "wildos-voice",
+      "wildos-welcome",
+      "wildos-winmode"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Item counts in Files read correctly in every language",
+     "packages": [
+      "wildos-branding",
+      "wildos-desktop-view",
+      "wildos-files"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 858,
+   "commit": "0b086f85c2f8d83a8053a7ccc58f36b30fd62221",
+   "date": "2026-11-19T12:38:41Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Wild OS's own apps are now in Dutch, German, Spanish, Italian, Portuguese and Polish",
+     "packages": [
+      "wildos-appbridge",
+      "wildos-archive",
+      "wildos-backup",
+      "wildos-branding",
+      "wildos-capture",
+      "wildos-cooler",
+      "wildos-desktop-view",
+      "wildos-files",
+      "wildos-mail",
+      "wildos-music",
+      "wildos-notes",
+      "wildos-office",
+      "wildos-overlays",
+      "wildos-pdf",
+      "wildos-portal",
+      "wildos-recovery",
+      "wildos-remote",
+      "wildos-report",
+      "wildos-settings",
+      "wildos-setup",
+      "wildos-shell",
+      "wildos-store",
+      "wildos-system-dialogs",
+      "wildos-taskmanager",
+      "wildos-terminal",
+      "wildos-ui",
+      "wildos-videos",
+      "wildos-voice",
+      "wildos-welcome",
+      "wildos-winmode"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Translations: a word like Home gets the right translation for each place it appears",
+     "packages": [
+      "wildos-appbridge",
+      "wildos-archive",
+      "wildos-backup",
+      "wildos-branding",
+      "wildos-capture",
+      "wildos-cooler",
+      "wildos-desktop-view",
+      "wildos-files",
+      "wildos-mail",
+      "wildos-music",
+      "wildos-notes",
+      "wildos-office",
+      "wildos-overlays",
+      "wildos-pdf",
+      "wildos-portal",
+      "wildos-recovery",
+      "wildos-remote",
+      "wildos-report",
+      "wildos-settings",
+      "wildos-store",
+      "wildos-system-dialogs",
+      "wildos-taskmanager",
+      "wildos-ui",
+      "wildos-videos",
+      "wildos-voice",
+      "wildos-welcome",
+      "wildos-winmode"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Counts like \"2 minutes\" read correctly in every language",
+     "packages": [
+      "wildos-remote",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 854,
+   "commit": "03f6a6e2e1afbaef34b4e46011b03867d00f0c78",
+   "date": "2026-11-19T10:37:19Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Games that ask for GameMode get the processor's full speed while they run",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 851,
+   "commit": "348b023f7dea8fbbdd855f1d9201d5d0f2c7d63a",
+   "date": "2026-11-18T15:19:27Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Brave no longer warns about an unsupported command-line flag when it opens",
+     "packages": [
+      "wildos-desktop"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 849,
+   "commit": "4a856d2cafd70af2288394edfdc9ba0ddc3f211e",
+   "date": "2026-11-18T13:45:46Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Cooler: the GPU's temperature shows with NVIDIA's own driver, and Both puts the two temperatures side by side",
+     "packages": [
+      "wildos-cooler"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 848,
+   "commit": "1bca1b9fda96a3834ab789eaf68f5af8da7d25ce",
+   "date": "2026-11-18T13:16:48Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Cooler: choose whether the cooler's screen shows the CPU, the GPU or both, and larger small writing on the faces",
+     "packages": [
+      "wildos-cooler"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 847,
+   "commit": "7bba9876466e75b8db67a20483d7f4fa0852d507",
+   "date": "2026-11-18T13:03:16Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Cooler lets go of the cooler cleanly when Wild OS shuts down, and the RGB ring face shows on NVIDIA",
+     "packages": [
+      "wildos-cooler"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 846,
+   "commit": "bf66d9c234bccbf3b171cd872a1bba474a5fa9e9",
+   "date": "2026-11-18T12:50:03Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Brave no longer opens an extra \"n/\" tab when it starts",
+     "packages": [
+      "wildos-desktop"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Screen recordings work on PCs with an NVIDIA graphics card",
+     "packages": [
+      "wildos-desktop"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 844,
+   "commit": "a5ba88d8462b08ef3d15304dc69510c7869f9ea5",
+   "date": "2026-11-18T12:11:58Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Start-up manager: hold Space while the PC starts to choose between Wild OS, Windows, a USB stick and restore points",
+     "packages": [
+      "wildos-base",
+      "wildos-branding",
+      "wildos-desktop",
+      "wildos-recovery",
+      "wildos-startup"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "Settings > System > Start-up disk: choose what the PC starts by default and restart straight into Windows",
+     "packages": [
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "Cooler, a new app for NZXT Kraken liquid coolers: faces on its screen, pump and fan speeds, and lighting",
+     "packages": [
+      "wildos-cooler",
+      "wildos-lighting",
+      "wildos-settings",
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 841,
+   "commit": "5ea75f0b12311091ba5809b5831c99616cabe991",
+   "date": "2026-11-18T12:08:11Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Ganger shows in the Store straight after the update that adds it",
+     "packages": [
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 840,
+   "commit": "168cd4559d626fb7ee05129ccdba460bd3b6b2c4",
+   "date": "2026-11-18T09:47:06Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "A download in Brave shows in Brave only, not in a second window from Wild OS",
+     "packages": [
+      "wildos-branding",
+      "wildos-desktop"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 839,
+   "commit": "b8a18338575975c9962655abbc360e45e72d0ff8",
+   "date": "2026-11-18T09:40:37Z",
+   "items": []
+  },
+  {
+   "build": 838,
+   "commit": "7eb32259651a344d231cf576022644a6e208169e",
+   "date": "2026-11-18T09:36:56Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Closing the Store while it is still loading no longer says it closed unexpectedly",
+     "packages": [
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 837,
+   "commit": "0ffcb4ffd8e3d7692947ee62e9e6cde729f88c7c",
+   "date": "2026-11-18T08:57:22Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "A click of the mouse wheel starts scrolling in Brave, Write, Tables and Slides",
+     "packages": [
+      "wildos-desktop",
+      "wildos-office"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Windows are easier to catch for resizing at the corners and the top edge",
+     "packages": [
+      "wildos-shell",
+      "wildos-ui"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "With the taskbar aligned left, Start opens above the Start button",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Remove from list takes a recent file off Start straight away",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The name shown when pointing at a taskbar item is no longer cut short",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "LibreOffice Draw no longer shows up in Start after Slides arrives",
+     "packages": [
+      "wildos-desktop"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The boot screen shows on a PC whose monitor is on an NVIDIA card with NVIDIA's own driver",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Steam and other Store apps start after NVIDIA's driver is installed from Settings",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 829,
+   "commit": "66ade3597f07bcf7c3ad220a3a3f7692c32ef9f0",
+   "date": "2026-11-17T17:41:26Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "A maximised window no longer has a resize band lying over the edge of the next screen",
+     "packages": [
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 828,
+   "commit": "a70439f638928ac1b87c61bbbce15ef52a0a5d71",
+   "date": "2026-11-17T17:31:52Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Slides shows your notes, the next slide, a timer and slide thumbnails on your own screen while you present",
+     "packages": [
+      "libreoffice"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "Slides, a new app for presentations that opens and saves PowerPoint files",
+     "packages": [
+      "wildos-branding",
+      "wildos-desktop",
+      "wildos-desktop-view",
+      "wildos-files",
+      "wildos-office",
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 825,
+   "commit": "66b020497daba9ee3b6aa445b5c4c228320c6fff",
+   "date": "2026-11-17T16:06:19Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Do not disturb, Notification settings and Clear all work again in the notifications card",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 824,
+   "commit": "1fba90248dde9763e81bb6deef56623e4566d0d6",
+   "date": "2026-11-17T14:03:35Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Uninstall in Start works for apps installed from a downloaded package file",
+     "packages": [
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 823,
+   "commit": "4735a32ccc41e58909943349164b3e1028690089",
+   "date": "2026-11-17T12:59:07Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Emoji and clipboard items go in properly while an input method is running",
+     "packages": [
+      "wildos-overlays"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 822,
+   "commit": "b3264acb679309f81b1a7fcca7bbb3681f8d9be5",
+   "date": "2026-11-17T12:24:30Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The lock screen keeps listening for your fingerprint while the PC is locked",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 821,
+   "commit": "96b5ee824a124837b90214a4f6aefeba55554e2f",
+   "date": "2026-11-17T12:15:39Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The emoji panel stays open so you can pick several, and its search shows emoji again",
+     "packages": [
+      "wildos-overlays"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 820,
+   "commit": "98ee4d93c929248090554d3a92f28cb6f3e499cb",
+   "date": "2026-11-17T11:27:10Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Settings has a Keyboard shortcuts page: see them, change them and add your own",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 819,
+   "commit": "538cb27194af7d8a520a8823b04da7bccce34263",
+   "date": "2026-11-17T11:04:03Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "On a PC with two graphics cards, an app's right-click menu can start it on the dedicated one",
+     "packages": [
+      "kio",
+      "wildos-branding",
+      "wildos-desktop-view",
+      "wildos-files",
+      "wildos-ui"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 817,
+   "commit": "ec678083107f40cec4b4f224aabd0190c3398a8a",
+   "date": "2026-11-17T10:23:36Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Report a problem is pinned to Start",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The Qt developer packages that updates brought in by mistake are removed again",
+     "packages": [
+      "wildos-files"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 815,
+   "commit": "87afe72633a6012d3790ff27665a3be58c1d216c",
+   "date": "2026-11-17T10:19:20Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Windows are easier to resize: the pointer catches the left, right and bottom edges from just outside them",
+     "packages": [
+      "wildos-shell"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "A restore point started from the start-up menu says it is only a try, and can be kept",
+     "packages": [
+      "wildos-recovery"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 813,
+   "commit": "418b870c88067fcfebfbbe51d3026bdc92b88633",
+   "date": "2026-11-17T10:10:40Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "A right click on the taskbar closes Start instead of leaving it stuck open",
+     "packages": [
+      "wildos-shell"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "A taskbar set to hide itself no longer stays on screen while the security shield shows a warning",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Files no longer brings Qt's developer tools with it",
+     "packages": [
+      "wildos-files"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 810,
+   "commit": "858726b01d4431d55b40346b974048ce274ec697",
+   "date": "2026-11-17T09:59:34Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Saving a PDF from a browser gives it the .pdf ending, not .[pp][dd][ff]",
+     "packages": [
+      "wildos-portal"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Programs installed into ~/.local/bin are found in the terminal",
+     "packages": [
+      "wildos-desktop"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 808,
+   "commit": "8db259ee99e50bb8fe45825f72beb9d1db6b04f8",
+   "date": "2026-11-17T09:50:57Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "NVIDIA's driver from Settings starts to a desktop: the display part is loaded at start-up and the desktop no longer hangs",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 807,
+   "commit": "1cb566620520faf53b633afae6f22c310d4a907d",
+   "date": "2026-11-16T23:18:48Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Graphics driver page: French for the new wording",
+     "packages": [
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "NVIDIA's driver from Settings: every part the desktop needs, and back to the open driver by itself if the desktop does not appear",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 803,
+   "commit": "fc7befcd5ecb0bb800261534ac07e125014dbaf2",
+   "date": "2026-11-16T17:51:10Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Apps, drivers and updates from Debian download directly, not through Tor",
+     "packages": [
+      "wildos-base"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 800,
+   "commit": "67b51cda3d1d4a04650a515e27b86598ccaf46e6",
+   "date": "2026-11-16T17:38:19Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "A desktop PC's keyboard and mouse are never blocked as new USB devices",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 799,
+   "commit": "c0e86aea96e2027f860574d17c9a8538c8c4a68b",
+   "date": "2026-11-16T16:11:55Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "A PIN can sign in on the sign-in screen",
+     "packages": [
+      "wildos-branding",
+      "wildos-desktop",
+      "wildos-settings",
+      "wildos-setup",
+      "wildos-system-dialogs",
+      "wildos-ui"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "A short password is a warning, not a refusal",
+     "packages": [
+      "wildos-settings",
+      "wildos-setup",
+      "wildos-welcome"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "The PIN sign-in wording is in French",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings",
+      "wildos-setup",
+      "wildos-welcome"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 796,
+   "commit": "750f24c12928750fdb4f7a035d7affd4b50518c7",
+   "date": "2026-11-16T16:04:47Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "No firmware messages on the start-up screen",
+     "packages": [
+      "wildos-base"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The start-up animation runs once, without stopping, into the desktop",
+     "packages": [
+      "wildos-branding",
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 794,
+   "commit": "7191b546c7ce77f3eaa5d8a16bf552786cae3b92",
+   "date": "2026-11-16T14:27:32Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "No firmware warning on screen at start-up on some PCs",
+     "packages": [
+      "wildos-base"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The desktop no longer sometimes takes half a minute to appear",
+     "packages": [
+      "wildos-desktop",
+      "wildos-portal"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "One start-up animation from the disk password to the desktop",
+     "packages": [
+      "wildos-branding",
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 791,
+   "commit": "e0279e15c83e5a672cde61834a359ca34018000c",
+   "date": "2026-11-16T12:10:04Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "A new start-up animation that keeps pace with the computer",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 790,
+   "commit": "675cb2ae1b877ccab511aac0b2401be528be24ba",
+   "date": "2026-11-16T11:42:16Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Start-up reaches the desktop sooner",
+     "packages": [
+      "wildos-base"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "The firewall goes up faster at start-up",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 788,
+   "commit": "0c03bac3ffec12db15d26e313d194215e3fed836",
+   "date": "2026-11-16T10:52:23Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "The clock can be set from a time server",
+     "packages": [
+      "wildos-base",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "A PIN can unlock the lock screen",
+     "packages": [
+      "wildos-branding",
+      "wildos-desktop",
+      "wildos-settings",
+      "wildos-system-dialogs",
+      "wildos-ui"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "The time source and PIN settings are in French",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The Night light button in quick settings turns night light on and off",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The lock screen says when too many wrong PINs were typed",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 780,
+   "commit": "6c02e623803163302ca67a91bb37258e90bf8efd",
+   "date": "2026-11-15T22:26:38Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Settings opens faster",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 779,
+   "commit": "e22edb3288146b3dea1bee668f7c2a130eb34044",
+   "date": "2026-11-15T22:09:06Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The fingerprint reader works with a quick touch",
+     "packages": [
+      "libfprint",
+      "wildos-desktop"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 778,
+   "commit": "3b89f8e108d1f4b6458e24f044102cc5b804d809",
+   "date": "2026-11-15T21:51:16Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Shut down and restart are about 3 seconds faster",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "ICloud and other calendar accounts show their calendars as soon as they are added",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 776,
+   "commit": "31be51966909ac54df24955c80f314660ab086e2",
+   "date": "2026-11-15T21:07:15Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Password boxes show the password when you press the eye button",
+     "packages": [
+      "wildos-archive",
+      "wildos-backup",
+      "wildos-mail",
+      "wildos-pdf"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 775,
+   "commit": "76cdaa7ac75432949ae7e551f7d0efc5584e4f1b",
+   "date": "2026-11-15T18:35:23Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Programs that rewrite temporary files in small pieces are faster: large SQLite jobs take about half as long",
+     "packages": [
+      "wildos-recovery"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 774,
+   "commit": "923844d5af4df3ad2fc16de557187d6208cfb9b8",
+   "date": "2026-11-15T17:51:18Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "With two screens, the password prompt, Ctrl+Alt+Del, screenshots and Identify cover the right screen",
+     "packages": [
+      "wildos-capture",
+      "wildos-settings",
+      "wildos-system-dialogs"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 772,
+   "commit": "b2c7a5e33783c7b1a4bf10d986dbf2c256ba5f54",
+   "date": "2026-11-15T17:45:56Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The permission prompt, the system prompts and the clipboard's emoji pages are loaded the first time they are needed",
+     "packages": [
+      "wildos-overlays",
+      "wildos-system-dialogs"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 771,
+   "commit": "6e62fd6ff26710ca834c304a69f969a23937a1e9",
+   "date": "2026-11-15T16:28:33Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The accessibility shortcuts and the Open and Save dialog service use less memory",
+     "packages": [
+      "wildos-portal",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 770,
+   "commit": "27335e38f1c5c9a4f3a5500652513a5c93331872",
+   "date": "2026-11-15T15:46:42Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Hot corners are off on new accounts until you choose one in Settings",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings",
+      "wildos-shell"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Files pins NAS and other network folders to the sidebar, and opens \\\\nas\\share addresses",
+     "packages": [
+      "wildos-files"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Open and Save dialogs list the folders pinned in Files",
+     "packages": [
+      "wildos-portal"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 767,
+   "commit": "e9168647c3a428514071283f2bb68430bb2d7a0b",
+   "date": "2026-11-15T15:33:58Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The wallet, the accessibility shortcuts and the app launcher service use less memory",
+     "packages": [
+      "wildos-desktop",
+      "wildos-launch"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 766,
+   "commit": "4b24cd04dd207a05a49f6b56d1621c23f2e81660",
+   "date": "2026-11-15T12:13:15Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Steam and 32-bit apps also lets a game watch the programs it starts, which Sober needs to run Roblox",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  }
+ ]
+}
