@@ -2,6 +2,20 @@
  "version": 1,
  "builds": [
   {
+   "build": 882,
+   "commit": "c9b80e643568aa067921ad0ede70730f301d933a",
+   "date": "2026-11-20T10:45:22Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Fixed: mail syncs straight after starting, and switching mailboxes no longer shows two lists at once",
+     "packages": [
+      "wildos-mail"
+     ]
+    }
+   ]
+  },
+  {
    "build": 881,
    "commit": "5369e910e8683be974ee439edd9525d428f2b0d3",
    "date": "2026-11-20T10:30:27Z",
@@ -1220,21 +1234,6 @@
      "packages": [
       "wildos-capture",
       "wildos-settings",
-      "wildos-system-dialogs"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 772,
-   "commit": "b2c7a5e33783c7b1a4bf10d986dbf2c256ba5f54",
-   "date": "2026-11-15T17:45:56Z",
-   "items": [
-    {
-     "category": "improved",
-     "text": "The permission prompt, the system prompts and the clipboard's emoji pages are loaded the first time they are needed",
-     "packages": [
-      "wildos-overlays",
       "wildos-system-dialogs"
      ]
     }
