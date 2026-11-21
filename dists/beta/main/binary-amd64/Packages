@@ -3765,18 +3765,18 @@ Description: Wild OS Write, Tables and Slides, the parts all three share
 
 Package: wildos-overlays
 Architecture: amd64
-Version: 0.1.11+r864
+Version: 0.1.12+r892
 Priority: optional
 Section: x11
 Maintainer: Wild OS Developers <dev@wildos.io>
-Installed-Size: 671
+Installed-Size: 695
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6guiaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), liblayershellqtinterface6 (>= 6.1.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.2.0), libqt6qml6 (>= 6.7.2), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0), wildos-ui, wildos-shell, kwin-wayland, layer-shell-qt, plasma-workspace (>= 4:6.3), plasma-workspace (<< 4:6.4), libqt6sql6-sqlite, qml6-module-qtquick, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qml6-module-qtqml-workerscript, fonts-noto-color-emoji
-Filename: pool/beta/wildos-overlays_0.1.11+r864_amd64.deb
-Size: 176196
-MD5sum: 86139ad4fc171418ed12370571899dd8
-SHA1: f7908683992a2169037b85342b107ed6c25a7439
-SHA256: 5082946b9b82a103dc2d2bbddb5fd0c14de7f37b319d29b4a1f29fa62f6d3d84
-SHA512: 6111464ce9bd98ca2432fabb8c50aa13fb919a78e96142d4348dba892802c22d92fcb7d4ff3c311f9d3559597de54a9224f1aa0dbba06fcaa5afc8efe64bd5d0
+Filename: pool/beta/wildos-overlays_0.1.12+r892_amd64.deb
+Size: 183908
+MD5sum: 427a36996e2e52631182ee3085e48250
+SHA1: 49a72aa219457e25a870d49bf6cfe77d0eaf3b5d
+SHA256: aacd5a69eda5c43130d281af80e9b2d9ed47c42cd50d012431e6d4cfdb0ada99
+SHA512: 560ac02424685e7adae573abf4c35b26f69fc8b9968d54d3a255df97fd9ba1d99b63d1e32c72c389066a9a35f52a3e2371bbba5bbe16d45890f135f59771d606
 Description: Wild OS pop-ups: clipboard history and emoji
  The overlays Windows people reach for by shortcut:
  .

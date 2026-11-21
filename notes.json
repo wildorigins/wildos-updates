@@ -2,6 +2,20 @@
  "version": 1,
  "builds": [
   {
+   "build": 892,
+   "commit": "aa9273c5b5331b06eaa9db37c8f636e15f14e8b2",
+   "date": "2026-11-21T09:36:45Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The emoji panel no longer blinks each time an emoji goes in",
+     "packages": [
+      "wildos-overlays"
+     ]
+    }
+   ]
+  },
+  {
    "build": 891,
    "commit": "2262aa89a2fcd9c0b9ae97a04b6c6973df45202f",
    "date": "2026-11-20T11:36:33Z",
@@ -1234,20 +1248,6 @@
      "text": "The lock screen says when too many wrong PINs were typed",
      "packages": [
       "wildos-branding",
-      "wildos-settings"
-     ]
-    }
-   ]
-  },
-  {
-   "build": 780,
-   "commit": "6c02e623803163302ca67a91bb37258e90bf8efd",
-   "date": "2026-11-15T22:26:38Z",
-   "items": [
-    {
-     "category": "improved",
-     "text": "Settings opens faster",
-     "packages": [
       "wildos-settings"
      ]
     }
