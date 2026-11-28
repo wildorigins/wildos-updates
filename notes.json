@@ -1,0 +1,1025 @@
+{
+ "version": 1,
+ "builds": [
+  {
+   "build": 1025,
+   "commit": "ff88f576b59c33e3a1ebf416cbab9b85580f7c08",
+   "date": "2026-11-28T18:32:18Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Task Manager and Taskbar settings open in front from the taskbar menu",
+     "packages": [
+      "wildos-shell",
+      "wildos-taskmanager"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1024,
+   "commit": "4385a313b82ef90b499968d8fc6617ec443efcdd",
+   "date": "2026-11-28T16:49:30Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows shows once in the start-up manager",
+     "packages": [
+      "wildos-startup"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1023,
+   "commit": "b96b5ff6b02f2f629b33a505f826afc5fa8ece56",
+   "date": "2026-11-28T16:18:50Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The fingerprint reader is ready straight away after a restart too",
+     "packages": [
+      "libfprint"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1022,
+   "commit": "346744d9c7a2ac1657234759e709fb3336521c7a",
+   "date": "2026-11-28T16:06:16Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Wild OS starts even when the EFI partition has a new ID",
+     "packages": [
+      "wildos-base",
+      "wildos-branding",
+      "wildos-installer"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1021,
+   "commit": "3d3a1594cde3b26ef848b7d54eb3d56dbab42e72",
+   "date": "2026-11-28T16:02:24Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The Store's sidebar drops the \"No account needed\" card",
+     "packages": [
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1020,
+   "commit": "092ad0866574758f2ffa7f4d665cee57954ecaa1",
+   "date": "2026-11-28T15:56:54Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Start's power and Settings icons no longer disappear",
+     "packages": [
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1019,
+   "commit": "4d2e0a973740f924be6a384ebdf2262b27211449",
+   "date": "2026-11-28T15:48:36Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Settings has a Gaming section with every gaming option in one place",
+     "packages": [
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "new",
+     "text": "GameMode has its own switch in Settings > Gaming",
+     "packages": [
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "The fingerprint reader is ready straight away every time after the first",
+     "packages": [
+      "libfprint"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Permission and other prompts give their memory back a minute after they close",
+     "packages": [
+      "wildos-system-dialogs"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Notification banners from Flathub browsers show the site's picture",
+     "packages": [
+      "plasma-workspace"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1013,
+   "commit": "1fdcc7148abc7d7a442fc0dea9f76f78a8f9574e",
+   "date": "2026-11-28T12:53:55Z",
+   "items": []
+  },
+  {
+   "build": 1012,
+   "commit": "4db271c940d0bc9c3c7aab61bba75ef1a533bbfc",
+   "date": "2026-11-28T12:16:05Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The top bar's Graphics reading works on Intel's built-in graphics",
+     "packages": [
+      "wildos-branding",
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1011,
+   "commit": "ae60253bb2d6680f87413e40682717afa4704d66",
+   "date": "2026-11-28T10:54:14Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "PackageKit no longer stays in memory all session",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1010,
+   "commit": "34596ae2432cf846c183562d208d8d27b379c8ae",
+   "date": "2026-11-28T10:46:59Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Start, quick settings and other popups free their memory after they close",
+     "packages": [
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1009,
+   "commit": "98c87596cae97a9b763e611d4c2a457a9d7f6d6a",
+   "date": "2026-11-28T10:17:47Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Choose a folder colour in Settings > Colours",
+     "packages": [
+      "wildos-fluent-icons",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Less memory in use: Tor no longer runs in the background, and huge pages go only to apps that ask",
+     "packages": [
+      "wildos-base",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Top bar readings keep their width as the numbers change",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Windows mode no longer stays in memory on PCs where it isn't set up",
+     "packages": [
+      "wildos-winmode"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Permission prompts free their graphics memory once they close",
+     "packages": [
+      "wildos-system-dialogs"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1003,
+   "commit": "dc1248e85e877bffec5f52cdaa83456fc80b942a",
+   "date": "2026-11-28T09:41:35Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The installer encrypts a disk set up by hand when you ask it to, and sets up brand new disks",
+     "packages": [
+      "calamares"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1002,
+   "commit": "f89c716a1a1a5201ee349a347087bd40abdf2b35",
+   "date": "2026-11-27T14:43:00Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Graphics readings work on NVIDIA cards without nvidia-smi",
+     "packages": [
+      "wildos-branding",
+      "wildos-shell",
+      "wildos-taskmanager"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1001,
+   "commit": "2d4e57b3189a26409747660527b1496f5875d226",
+   "date": "2026-11-27T14:29:40Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Flathub browsers are listed in Notifications from apps",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 1000,
+   "commit": "ebd4cc455ee2976c695add559d018ce5a9bd69d3",
+   "date": "2026-11-27T14:25:54Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Ctrl+C in Terminal copies and clears the selection, as in Windows Terminal",
+     "packages": [
+      "wildos-terminal"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 999,
+   "commit": "2da6991ed7d2de25cacdb514d95a9aa2b4250172",
+   "date": "2026-11-27T12:26:58Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Flathub browsers' notifications show the browser's name and icon",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 998,
+   "commit": "c576c1c3ed4541fded3592e6c6d828ad0db0b729",
+   "date": "2026-11-27T12:16:43Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Bottom right notification banners keep clear of a top bar on the right",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 997,
+   "commit": "79c5f6156456116beb1f4aa0cb099f9254cbf920",
+   "date": "2026-11-27T12:08:03Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Bottom right notification banners stay above the taskbar",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 996,
+   "commit": "e778c15a9ba8198595bd56aecac5e608537180bb",
+   "date": "2026-11-27T11:40:46Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Num Lock on at the disk password screen when it's set to be on at sign-in",
+     "packages": [
+      "wildos-base",
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 995,
+   "commit": "5132506299ed8d588bb26b0aae3152964f4e7fcb",
+   "date": "2026-11-27T11:30:50Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Settings > System > Notifications opens again",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 994,
+   "commit": "0bc2c19f54ef81969e5b300cc6c7d1fecdf244e9",
+   "date": "2026-11-27T10:50:02Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Open Task Manager from a top bar reading goes straight to that resource",
+     "packages": [
+      "wildos-branding",
+      "wildos-taskmanager"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 993,
+   "commit": "f422c4fc4ef54e33c8646db16b7205c5270f10fc",
+   "date": "2026-11-27T10:38:16Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Browser notifications show the site's picture and the browser's name",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 992,
+   "commit": "2f2f486b1b73f0515dd6043bb37b8fbb9061d587",
+   "date": "2026-11-27T10:37:24Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "The top bar casts its shadow on the desktop, and Escape closes a reading panel",
+     "packages": [
+      "wildos-branding",
+      "wildos-shell"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 991,
+   "commit": "22cf70a57afebd3569edffbdfaf547478ab37bbf",
+   "date": "2026-11-27T10:21:41Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Taskbar stays on the main display with two screens",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 990,
+   "commit": "ad6b0627a06ba10d4c78b56fd794b787c1316063",
+   "date": "2026-11-27T10:11:50Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "A top bar along the top of the screen, with shortcuts, what is playing and live readings",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings",
+      "wildos-shell",
+      "wildos-welcome"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 989,
+   "commit": "dbd478b2e67fb1b93054a084631460c9bfb81399",
+   "date": "2026-11-27T09:59:09Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Notification banners can show bottom right, as on Windows",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 988,
+   "commit": "bdf676806d80d45107fb1f2c63a793668286ca8f",
+   "date": "2026-11-27T09:20:55Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Sign in and unlock with just your PIN, no Enter needed, as on Windows",
+     "packages": [
+      "wildos-branding",
+      "wildos-system-dialogs",
+      "wildos-ui"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 987,
+   "commit": "d6038130fc31744d8fc09b3c6f188cdca8b19005",
+   "date": "2026-11-27T09:02:20Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Screenshot toolbar steps aside while you drag out an area",
+     "packages": [
+      "wildos-capture"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Sign-in screen turns Num Lock on or off as chosen in Settings, ready for a PIN",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Night light strength keeps showing the value you let go at",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 984,
+   "commit": "ded74f68b94ca3b75ae08795d0fdb94d9fdc3ef4",
+   "date": "2026-11-27T08:51:42Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "The Start button can show the Wild OS logo instead of the app grid",
+     "packages": [
+      "wildos-branding",
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 983,
+   "commit": "fce0995cb7999af94793ff2dab1f41cb85273fba",
+   "date": "2026-11-27T08:47:53Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Removing a desktop widget with its remove button keeps it removed after a restart",
+     "packages": [
+      "wildos-desktop-view"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 979,
+   "commit": "1527f33b238cc46cd5849e817d296b8ddc0ce127",
+   "date": "2026-11-26T18:40:49Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Installer: a start-up menu setting that can't be written never stops an install",
+     "packages": [
+      "wildos-installer"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Other systems on the PC show in the start-up menu at every start after installing",
+     "packages": [
+      "wildos-installer"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 977,
+   "commit": "50674d9142c54c673a6407bf6210e82e7f08e1de",
+   "date": "2026-11-26T18:12:29Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Picture-in-picture videos from browsers stay above other windows",
+     "packages": [
+      "wildos-branding"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "The window menu's \"Configure special window settings\" opens the window rules page",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 975,
+   "commit": "d98925b16143c88b74fc4b044dd2cb5268cb5ecd",
+   "date": "2026-11-26T16:27:49Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows apps that go full screen fill the screen and no longer stay above every other window",
+     "packages": [
+      "wildos-rdp"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 974,
+   "commit": "3b736410f4fee82783775259b9859b83ebe8fcd2",
+   "date": "2026-11-26T16:01:31Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Terminal's cursor keeps blinking while a Vietnamese word is being typed",
+     "packages": [
+      "qtermwidget"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 973,
+   "commit": "d05e45a0ae1bd15ff0c5a45cd1b42fd946b95dd2",
+   "date": "2026-11-26T15:46:12Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Terminal's cursor follows the letters while you type in Vietnamese",
+     "packages": [
+      "qtermwidget"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 972,
+   "commit": "a7d28efd1ada4aba5f172391f7c0524d49dbc5dc",
+   "date": "2026-11-26T14:14:07Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Terminal: selecting text and pressing Ctrl+C copies it instead of stopping the command",
+     "packages": [
+      "wildos-terminal"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 970,
+   "commit": "490a8865a7fe656b488a8b64ea1c35b2793453d1",
+   "date": "2026-11-26T13:14:51Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows installers in Downloads open on slow PCs instead of saying the path doesn't exist",
+     "packages": [
+      "wildos-appbridge",
+      "wildos-winmode"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Windows mode setup gives an honest time: under an hour on most PCs, longer on an older one",
+     "packages": [
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 966,
+   "commit": "7d1e1d41bd15d0ffdf880c88b554dfb0b54d90a4",
+   "date": "2026-11-26T10:25:51Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Hover highlights fade in cleanly in light mode",
+     "packages": [
+      "wildos-backup",
+      "wildos-branding",
+      "wildos-desktop-view",
+      "wildos-files",
+      "wildos-mail",
+      "wildos-music",
+      "wildos-notes",
+      "wildos-office",
+      "wildos-pdf",
+      "wildos-portal",
+      "wildos-settings",
+      "wildos-store",
+      "wildos-taskmanager",
+      "wildos-terminal",
+      "wildos-ui",
+      "wildos-voice"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 965,
+   "commit": "50e1b2e3d97899a0ba8cf85f42030705e6130c82",
+   "date": "2026-11-26T10:03:33Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Hover highlights fade out cleanly in light mode",
+     "packages": [
+      "wildos-branding",
+      "wildos-capture",
+      "wildos-portal",
+      "wildos-ui"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 964,
+   "commit": "e35ba4ca65f4b5b48591b4becbfd796e80420be1",
+   "date": "2026-11-26T10:00:31Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Windows have a thin grey border in light mode, as in Windows 11",
+     "packages": [
+      "wildos-branding",
+      "wildos-ui"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Files shows the whole name again when you rest the pointer on one that is cut short",
+     "packages": [
+      "wildos-files"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "ThinkPad T460s laptops wake from sleep again",
+     "packages": [
+      "wildos-base"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Files' side list lights one place at a time, with no grey trail in light mode",
+     "packages": [
+      "wildos-files"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Night light strength counts as you drag it",
+     "packages": [
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Start's search box shows a blinking caret when you click into it or type",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 958,
+   "commit": "43469edfd75f1c7689a645de2e9df89f6b024ba9",
+   "date": "2026-11-26T09:53:21Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Laptops no longer power off a second after reaching the desktop",
+     "packages": [
+      "security-misc"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 957,
+   "commit": "b60f2be496a91cd26fd61feef788ce149073a6ea",
+   "date": "2026-11-25T15:39:20Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "The Store says when an install is waiting for another one to finish",
+     "packages": [
+      "wildos-store"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 955,
+   "commit": "870c470f93d3fa60b433cec92f006181399fa65b",
+   "date": "2026-11-25T08:29:46Z",
+   "items": [
+    {
+     "category": "new",
+     "text": "Drivers your hardware needs now download by themselves",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 954,
+   "commit": "d2a0075547b747a138d0c11ea4386d255439f610",
+   "date": "2026-11-24T20:52:55Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Report a problem no longer crashes when you close it after Open GitHub",
+     "packages": [
+      "wildos-report"
+     ]
+    },
+    {
+     "category": "fixed",
+     "text": "Apps no longer crash when closed while a dialog is still open",
+     "packages": [
+      "wildos-archive",
+      "wildos-backup",
+      "wildos-cooler",
+      "wildos-music",
+      "wildos-notes",
+      "wildos-pdf",
+      "wildos-remote",
+      "wildos-videos",
+      "wildos-voice"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 952,
+   "commit": "f2806a109ec30456eb0154f48c43ab58440f2b7f",
+   "date": "2026-11-24T16:06:45Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows apps keep clear of the taskbar from the moment they open",
+     "packages": [
+      "wildos-rdp"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 951,
+   "commit": "b46539b35ba5abbd080dc703c8458db20d6e0153",
+   "date": "2026-11-24T15:54:51Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows apps dragged to the top of the screen maximise properly and can be minimised again",
+     "packages": [
+      "wildos-rdp"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 950,
+   "commit": "c26fd97cb75fc9261c3842b51f83507ec6f86ece",
+   "date": "2026-11-24T15:38:32Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows overlays let clicks through to the windows under them, as they do in Windows",
+     "packages": [
+      "wildos-rdp"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 949,
+   "commit": "3b50108ce8846c7b6ffff45eca8a7da19c33a725",
+   "date": "2026-11-24T15:17:05Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Search boxes for the language and time zone when Wild OS first starts",
+     "packages": [
+      "wildos-welcome"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 948,
+   "commit": "2fbd70cc5565c5721d02268bacd4a547ef517319",
+   "date": "2026-11-24T14:32:52Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows apps redraw a ticked box or changed button straight away",
+     "packages": [
+      "wildos-rdp"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 947,
+   "commit": "42566d3740b6ed9f5a2fd82f568ab7b323c7a182",
+   "date": "2026-11-24T14:18:58Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows installers that ask for permission show the question, and Windows keeps its open apps after a restart with a USB device given to it",
+     "packages": [
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 946,
+   "commit": "c42960f0df98f606e1cec19d193ee6362d979337",
+   "date": "2026-11-24T10:20:05Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Build Lotus, the Vietnamese typing engine, from its upstream release",
+     "packages": [
+      "fcitx5-lotus",
+      "wildos-settings"
+     ]
+    },
+    {
+     "category": "improved",
+     "text": "Vietnamese typing moves to Lotus: no underlined word, Electron apps included, and your own Fcitx choices stay after a restart",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 943,
+   "commit": "f3dddcd598243d46bed83d32e6a9adaae125e84c",
+   "date": "2026-11-24T09:11:15Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "PDFs you open in Brave open in Wild OS PDF",
+     "packages": [
+      "wildos-desktop"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 942,
+   "commit": "541003bcc1eedb18b67f2f84d51e6d1761645e66",
+   "date": "2026-11-24T08:53:16Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Pinned apps in Start keep their icons and names after installing an app",
+     "packages": [
+      "wildos-branding"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 941,
+   "commit": "7a34c08a795769e25d897b2a39cfb8d545ae663a",
+   "date": "2026-11-24T08:39:49Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Network printers found on your network can be added with a driver again",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 940,
+   "commit": "fcfc6d5c2430c81bcda49e1ac40056872056930a",
+   "date": "2026-11-23T21:28:44Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Brave gets its updates and can be installed again after removing it",
+     "packages": [
+      "wildos-base"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 939,
+   "commit": "951f86cdb3a6c930430213bbf48d23ccdfa5179f",
+   "date": "2026-11-23T20:45:56Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows apps can open your folders on Z: again",
+     "packages": [
+      "freerdp3"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 938,
+   "commit": "841c5c866a6d5e5f9f720b8656a99c7829a3e028",
+   "date": "2026-11-23T19:16:18Z",
+   "items": [
+    {
+     "category": "improved",
+     "text": "Problem reports show Windows apps that froze or crashed",
+     "packages": [
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 937,
+   "commit": "fad8f300624cb03816f9c4e5070bb12938a5192c",
+   "date": "2026-11-23T18:28:06Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Windows mode keeps the folders you choose for Windows apps",
+     "packages": [
+      "wildos-winmode"
+     ]
+    }
+   ]
+  },
+  {
+   "build": 936,
+   "commit": "5d78639efb6bc6fde824e5af646addab4cb4099f",
+   "date": "2026-11-23T16:34:55Z",
+   "items": [
+    {
+     "category": "fixed",
+     "text": "Wild OS leaves your own Vietnamese typing set-up as you made it",
+     "packages": [
+      "wildos-settings"
+     ]
+    }
+   ]
+  }
+ ]
+}
